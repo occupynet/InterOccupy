@@ -1,0 +1,56 @@
+Plugin Name: Moderation
+Author: S H Mohanjith (Incsub), Andrew Billits (Incsub)
+
+Change Log:
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+1.0.8.1 - 05/19/2012 
+----------------------------------------------------------------------
+- Fixed: Reported posters get kicked to unaccessible page
+
+1.0.8 - 04/04/2011
+----------------------------------------------------------------------
+- Fixed: Reported posters get kicked to unaccessible page
+
+1.0.7 - 03/01/2011
+----------------------------------------------------------------------
+- Allow placement of moderation links from within a template
+- More improvements
+
+1.0.6 - 08/09/2011
+----------------------------------------------------------------------
+- Fixed: Call to undefined function awurlencode
+
+1.0.5 - 08/04/2011
+----------------------------------------------------------------------
+- Switch to is_admin() from WP_ADMIN
+- Localization improvements
+- Hide moderation warning if not applicable
+
+1.0.4 - 04/28/2011
+----------------------------------------------------------------------
+- Fixed: "Report This Comment" link showing in the back-end
+- Use BLOG_ID_CURRENT_SITE instead of '1'
+
+1.0.3 - 03/09/2011
+----------------------------------------------------------------------
+- Fixed: Moderation Plugin spam
+
+1.0.2 - 01/10/2011
+----------------------------------------------------------------------
+- 3.1+ compatibility update
+
+1.0.1 - 06/24/2009
+----------------------------------------------------------------------
+- Don't show "report post" link on search pages
+
+1.0.1 - 06/24/2009
+----------------------------------------------------------------------
+- Don't show "report post" link on search pages
+
+1.0.0 - 06/18/2009
+----------------------------------------------------------------------
+- Initial Release.
+
+18246-1339102959-ai

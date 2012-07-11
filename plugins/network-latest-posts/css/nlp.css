@@ -1,0 +1,49 @@
+.network-posts-pagination ul.page-numbers{border:0; margin:0; padding:0;}
+.network-posts-pagination .page-numbers li{
+border:0; margin:0; padding:0;
+font-size:11px;
+list-style:none;
+text-align: center;
+float:left;
+}
+.network-posts-pagination .page-numbers a{
+background: #fefefe url('../img/white-grad.png');
+border:solid 1px #DDDDDD;
+margin-right:2px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px; 
+border-radius: 10px;
+}
+.network-posts-pagination .page-numbers .previous-off,
+.network-posts-pagination .page-numbers .next-off {
+color:#666666;
+display:block;
+font-weight:bold;
+padding:3px 4px;
+}
+.network-posts-pagination .page-numbers .next a,
+.network-posts-pagination .page-numbers .previous a {
+font-weight:bold;
+border:solid 1px #FFFFFF;
+} 
+.network-posts-pagination .page-numbers .current{
+color:#5A7428;
+font-weight:bold;
+display:block;
+padding:4px 6px;
+}
+.network-posts-pagination .page-numbers .dots{
+font-weight:bold;
+display:block;
+padding:4px 6px;
+}
+.network-posts-pagination .page-numbers a:link,
+.network-posts-pagination .page-numbers a:visited {
+color:#555;
+display:block;
+padding:3px 6px;
+text-decoration:none;
+}
+.network-posts-pagination .page-numbers a:hover{
+border:solid 1px #666666;
+}

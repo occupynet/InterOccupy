@@ -1,0 +1,129 @@
+input:focus[type="text"], 
+.textbox{
+	color: black;
+	border-color: #c5e2ff;
+	-moz-box-shadow: 0 0 5px #c5e2ff;
+	-webkit-box-shadow: 0 0 5px #c5e2ff;
+	box-shadow: 0 0 5px #c5e2ff;
+}
+input[type="checkbox"],
+.checkbox{
+	width: 20px;
+	height: 20px;
+	margin-top:17px;
+}
+input[type="text"], 
+.textbox
+{
+	height:30px;
+	*width:80%;
+	font-size: 16px;
+	color: #494949;
+	border-style: inset;
+	margin-top: 8px;
+}
+input[type="text"]:hover,
+.textbox:hover
+{
+	color: black;
+	background-color: #f2f9e9;
+}
+table.form-table tbody span {
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	color: #6f6f6f;
+}
+table.form-table tbody tr th {
+	text-align: right;
+	font-size: 16px;
+	padding: 35px;
+	border-right: 10px solid #6abdf5;
+}
+table.form-table tbody tr{
+	background-color: #fafafa;
+	border: 1px solid #d6d0d3;	
+}
+table.form-table tbody tr:hover{
+	background-color: #efefef;	
+}
+table.form-table tbody tr td{
+	padding: 20px;
+}
+table.form-table tbody tr td img{
+	padding: 5px;
+	border: 2px solid #9fcffb;
+	background-color: #000;
+		-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+#wpbody-content div.wrap pre {
+	background-color: #777;
+	padding: 10px;
+	color: #eaeaea;
+	-webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+	border-style: solid;
+	border-width: 1px;
+}
+#wpbody-content div.wrap pre:hover {
+	background-color: #838383;
+	padding: 10px;
+	color: #fffeff;
+	    border-radius: 50px;
+	border: 1px solid #323232;
+}
+h4{
+	font-size: 20px;
+}
+#wp-vanilla-connect-urls div{
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+	border-style: solid;
+	border-color: #e8e8e8;
+	margin-bottom: 10px;
+	padding: 15px;
+	background-color: #f4f4f4;
+	color: black;
+}
+#wp-vanilla-connect-urls div:hover{
+	border-color: #b2dbf2;	
+}
+#test_link{
+	cursor:pointer;
+	pointer:pointer;
+}
+#test_response{
+	margin-top:5px;
+	padding:5px;
+	background: #f5fef8;
+	border: 1px dotted #959595;
+}
+.test_success{
+	padding:5px;
+	background: #c9daff;
+	border: 1px solid #82a9c5;
+	word-wrap: break-word;
+}
+#wp-vanilla-connect-slash{
+	display: inline;
+	font-size: 16px;
+}
+.submit{
+	background-color: #2e5874;
+	padding: 10px;
+	border: 1px solid #c7c7c7;
+	border-top: 1px solid #ff0058;
+}
+.table-header{
+	padding: 20px;
+	margin-bottom: -6px;
+	border-bottom: 1px solid #6abdf5;
+}
+#form_sub_boxes div{
+	margin-right: 15px;
+	float:left;
+}

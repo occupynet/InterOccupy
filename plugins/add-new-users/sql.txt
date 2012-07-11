@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS `wp_bulk_add_new_users_queue` (
+  `bulk_add_new_users_ID` bigint(20) unsigned NOT NULL auto_increment,
+  `bulk_add_new_users_site_ID` bigint(20),
+  `bulk_add_new_users_blog_ID` bigint(20),
+  `bulk_add_new_users_batch_ID` varchar(255),
+  `bulk_add_new_users_user_login` varchar(255),
+  `bulk_add_new_users_user_email` varchar(255),
+  `bulk_add_new_users_user_password` varchar(255),
+  `bulk_add_new_users_user_role` varchar(255),
+  PRIMARY KEY  (`bulk_add_new_users_ID`)
+) ENGINE=MyISAM;
+
+18246-1339102842-ai

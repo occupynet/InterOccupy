@@ -1,0 +1,8 @@
+#prevent the directory from been listed on a browser
+Options -Indexes
+
+#block some file types
+<FILES ~ "\.(php|htm|html|shtml)$">
+   order allow,deny
+   deny from all
+</FILES>

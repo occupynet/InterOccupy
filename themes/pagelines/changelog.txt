@@ -1,0 +1,347 @@
+********************************************************
+
+  PageLines Framework Release Notes:  
+
+********************************************************
+
+Version 2.2.2
+    - CORE - Added new LESS variable @{plExtendRoot}.
+	- CORE - Added filter pl_dynamic_css_url.
+	- CORE - Added pl_force_ssl action.
+	- CORE - Main CSS and gfont will be https if pl_force_ssl is used.
+	- CORE - Added option to NavBar to display title on small screens.
+	- CORE - Added .tac utility class to text-align center elements.
+	- CORE - Added file based css cache LESS_FILE_MODE must be defined.
+	- CORE - Child themes can now use welcome.php to customize the dashboard, adds a new tab.
+	- CORE - Use wp_title() filters for TITLE, good for SEO plugins.
+	- Bugs - Fixed template dropdown in edit page.
+	- Bugs - Fixed accordion shortcode open status.
+	- Bugs - Fixed dark background option on features.
+    - Bugs - Fixed supersize on fixed width mode.
+	- Bugs - Fixed [post_type] shortcode ( undefined index ).
+	- Bugs - Allow NGINX to use pretty urls with css.
+	- Bugs - Fix Carousel to work without captions.
+	- Bugs - Fix Pagination section not working in archives etc.
+	- Bugs - Fix MoreFoot widget description.
+	- Bugs - Fix wrong admin URL in admin-bar.
+	- Bugs - Fix Login URL in dashboard.
+	- Bugs - Fix PrettyPrint description.
+
+Version 2.2.1
+	- CORE - Added Minification option under Advanced tab.
+	- Bugs - CSS Minification disabled by default ( fixes a Plesk issue ).
+	- Bugs - Fix 'more' link and background in features section.
+	- Bugs - Make sure server is Apache before attempting to use rewrites.
+	- Bugs - Strip all JS from the CSS/LESS box.
+	- Bugs - Do not rewrite CSS if Polylang plugin is active.
+	- Bugs - Bootstrap uses important not danger.
+
+Version 2.2
+	- NEW - New section! ScrollSpy - Scrolling in-page navigation
+	- NEW - New section! Masthead - Giant text, compelling message and buttons
+	- NEW - New section! Navbar - Brand new navigation system with themes!
+	- NEW - New section! Hero - Quickly give a beautiful overview.
+	- NEW - Integration of Twitter Bootstrap (http://twitter.github.com/bootstrap/)
+	- NEW - New shortcode system - Modals, Buttons, Etc.. 
+	- NEW - Performance enhancements & cleaner source markup.. Oh! and unicorn dust.
+	- NEW - Quickslider text options
+	- NEW - Fixed navigation bar with four color schemes.
+	- NEW - Custom CSS uses dynamic LESS.
+	- NEW - LESS system reports errors using adminbar.
+	- NEW - Sections style.less file auto loaded.
+	- NEW - Child theme style.less auto loaded.
+	- NEW - All CSS combined and compiled by LESS then cached.
+	- NEW - New PageLines Dashboard.
+	- NEW - Upgrade notifications and One Click Upgrades in Dashboard area.
+	- NEW - All Plus extensions listed with install buttons in Dashboard.
+	- NEW - Moderated Live Chat added to Dashboard ( Plus users ).
+	- NEW - Dashboard shows latest community posts, store updates and blog RSS feeds.
+	- NEW - Special thanks to the PageLines Beta Testing group, along with Mikey Z, Nigel, Danny, Posey, Jamie, Ian, David, and the rest of the unicorns in the Upper East side (no Unicorns were harmed in the making of this version).
+	- CORE - Added [post_authors] shortcode for metabar.
+	- CORE - New Quickslider default images. 
+	- CORE - Added [post_type] shortcode for metabar.
+	- CORE - Added title/alt to watermark.
+	- CORE - Store layout tweaks.
+	- CORE - Add support for WordPress 3.4.
+	- CORE - Improved Callout section.
+	- CORE - Improved Highlight section.
+	- CORE - Child theme style.less auto parsed.
+	- CORE - Customize plugin style.less auto parsed.
+	- CORE - CSS class change - .section-comments to .section-wp-comments.
+	- CORE - Moved "Site Design Mode" from "Color Options" to "Layout Editor".
+	- CORE - PL_LESS_DEV constant added to disable css caching.
+	- Bugs - Fix undefined template name after theme change.
+	- Bugs - Remove Custom plugin attempting to copy page templates on every pageload.
+
+Version 2.1.7
+
+	- NEW - WPML Added config xml file.
+	- NEW - WPML Added pagelines_wpml() wrapper.
+	- NEW - Callout/Highlight/Qquickslider all translatable with WPML.
+	- Bugs - Features use posts per page if no limit set.
+	- Bugs - Only check for updates on admin screens.
+	- Bugs - Fix typo under layout options.
+	- Bugs - Fix links to pagelines.com in admin.
+	- Bugs - Google API use SSL if blog is SSL.
+	- CORE - Add three new google fonts to typography.
+
+Version 2.1.6
+	
+	- CORE - Responsive fixes.
+	- CORE - Page titles default to ON.
+	- CORE - Fix untranslated strings banners/carousel/boxes.
+	- CORE - Default font changed to helvetica.
+	- Bugs - Fix featured thumb in posts.
+	- Bugs - Various CSS fixes.
+	- Bugs - Strip HTML from shares.
+
+Version 2.1.5
+	- HotFix - Metapanel integrations error.
+
+Version 2.1.4
+	- NEW - PInterest added to sharebar.
+	- NEW - Section QuickSlider.
+	- NEW - Footer Image/Watermark fully configurable.
+	- CORE - Subscriptions added to store.
+	- CORE - Add compatibility for wp 3.4
+	- Bugs - Shortcodes work in features.
+	- Bugs - CPT handling.
+	- Bugs - bbpress/og conflict.
+
+Version 2.1.3
+	- Bugs - HotFix - Static Height Mode - Feature Slider
+
+Version 2.1.2
+	- NEW - Callout Options (alignment, CSS button)
+	- NEW - Facebook Like Image uses 'Featured Image' (if available)
+	- NEW - Advanced option - Current Install <body> class
+	- NEW - Boxes options - More link & individual class
+	- NEW - Add Open Graph options
+	- NEW - Show active templates in page list
+	- NEW - Show featured image in post/page list
+	- NEW - Carousel gets auto scrolling
+	- NEW - Special body class option
+	- NEW - Developer libs added
+	- NEW - Sharebar under post titles
+	- NEW - Features are now responsive
+	- CORE - Widget areas always loaded
+	- CORE - Store items loaded by date
+	- CORE - New action pagelines_loop_before_excerpt
+	- CORE - New action pagelines_loop_after_excerpt
+	- Bugs - Change action time for sidebar loading
+	- Bugs - Fix HTML5 validation
+	- Bugs - Re-add youtube link
+	- Bugs - Escape JS in feature titles 
+
+Version 2.1.1
+	- Bugs - IE8 <img> css
+	- CORE - Section Tweaks - Highlight
+
+Version 2.1
+	- NEW - Global default meta options
+	- NEW - BuddyPress and bbPress Extensions
+	- NEW - Sharebar Section Rewrite (dynamic buttons)
+	- NEW - Hashtag option (Used in social media)
+	- NEW - Dynamic search field (CSS3 Search Field)
+	- NEW - Sidebar load priority
+	- NEW - Widget - Special Recent Posts
+	- NEW - Twitter Section - @ and # links made clickable
+	- NEW - PostNav Section - Allow cloning
+	- NEW - Feature Section - New sort functions + all posts
+	- NEW - Boxes Section - New sort functions
+	- CORE - Color handling system
+	- CORE - Meta defaults
+	- CORE - Updates LESS system
+	- CORE - Custom CSS now loaded last
+	- CORE - New debug system
+	- CORE - New template naming
+	- CORE - Store - Better filesystem handling 100% WP functionality
+	- Bugs - Better license handling
+	- Bugs - Fix importer trying to set a null array
+	- Bugs - Category is not an archive
+	- Bugs - Use main layout for posts/pages
+	- Bugs - JS not loading for a clone.
+
+
+-------------------------------------
+
+Version 2.0.2
+	- CORE - Template Name Convention Change
+	- CORE - Modifications for free version
+------------------------------------- 
+
+Version 2.0.1
+	- Feature Section
+		- Responsive Background Images!
+		- Bug fix - Meta on blog page
+		- Better background handling
+		- Posts category mode, uses featured images
+	- Carousel Section - Taxonomy select, tweaks
+	- Performance - Post Saving - Changed hook
+	- Multisite - Added support for 'blogs' folder in customize plugin
+	- Bugs - Remove css3 media queries js ( broken )
+	- Features - Category mode now pulls in featured image
+------------------------------------- Date: 12-22-2011
+
+Version 2.0.0
+	
+	Official Release 2.0.0!
+	- Special Thanks to
+		- Chris Johnston (Awesome New Documentation)
+		- Beta Tester Team (Mike Zielonka, Ian Sterne, Posey Gaines)
+
+	Hotfixes
+	- Nav Enhancement - Better highlighting
+	- Store - Remove integration buttons for non-dev
+
+	Release Candidate Four
+	- Bugs - Screenshot url fix.
+	- Fix sandbox urls.
+	- MU - multisite fixes and css tweaks.
+	
+	Release Candidate Three
+	- Localization - Translation fixes.
+	- Bugs - Layout bug fixed.
+	- Docs - Inline help added (chris).
+	- Bugs - Screenshot url fix.
+	- Bugs - base_url fix.
+	
+	Release Candidate Two
+	- Welcome Screen Changes
+	- Fixed Layout Management Bug
+	- Add class to feature link
+	- Misc improvements
+	
+	Release Candidate One
+	- Integrations - Special Settings fixed.
+	- Section - Refined Carousel
+	- Bugs - Fixed special option handling
+	- Store - New interface
+	
+	BETA - 32
+	- Store - Error Fix
+	
+	BETA - 31
+	- Integrations Special Settings.
+	- IE Handling.
+	
+	BETA - 30
+	- Extension - Added new footer hooks.
+
+	BETA - 29
+	- Localization - i18n fixes
+	- Option - new 'fonts' option.
+
+	BETA - 28
+	- Various fixes
+	- Store refining
+	- Upgrade paths added
+
+	BETA - 27
+	- Refactoring
+
+	BETA - 26
+	- Store refactored.
+
+	BETA - 25
+	- Refined the 'store'
+	- Bug fixes
+	- Integrations.
+	
+	BETA - 24
+	- LESS CSS - New Color Api for Section Extension (lessphp.org)
+	- Integrations - Add Vanilla Theme.
+	- Integrations - Add MediaWiki Theme.
+	
+	BETA - 23
+	- Bug Fix - wamp has curl disabled by default props Chris.
+	- Bug Fix - various.
+
+	BETA - 22
+	- Equalizer Script
+	- New Child Theming Refinements
+	- Bug Fixes and Refinements
+	- Child Theme panel hiding functions added.
+	
+	BETA - 21
+	- Huge memory savings.
+	- New theming options.
+
+	BETA - 20
+	- Add sections to sandboxing.
+	- Extend - Implement version checking for sections.
+	- Bug Fix - UTF8 html escape.
+	- Add user level support.
+	- Cloning fixes
+	- Memory leak discovered in section handling.
+
+	BETA - 19
+	- Add support for profiles section.
+	- Add plugins sandboxing.
+	
+	BETA - 18
+	- Bug Fix - Meta not saving.
+	
+	BETA - 17
+	- Bug Fix - Sections all had same ID.
+	- Bug Fix - Windows sections all had same icon.
+	- Extend screenshots all round.
+	- New payment system, no more iframe!
+	- Metapanel refresh.
+	- New profiles API.
+
+	BETA - 16
+	- Massive sections upgrade!
+	- New license check system
+
+	BETA - 15
+	- Whole admin is now fully translatable.
+	- Multisite 'fixes' for extend:
+		* Update notifications disabled for non super-admin.
+		* Install/Delete disabled for non super-admin.
+	- cache clean on theme switch.
+
+	BETA - 14
+	- Extend system uses wp_filesystem if needed.
+	- Lots of translation fixes.
+	BETA - 13
+	- *New Fixed Background Option
+	- CPT Handling
+	- Advanced Layout Functions
+	BETA - 11, 12
+	- Auto registering page templates
+	- Developer Features
+	- Security Enhancements
+	- SSL PageLines API
+	BETA - 9, 10
+	- PageLines Extend
+	- Usability improvements
+	BETA - 8
+	- Special Handling
+	- Meta Handling
+	- Feature Refinements
+	- Section Refinements
+	BETA - 7
+	- Clone Options
+	BETA - 6
+	- Design Control
+	- Color Math
+	- Text Shadows
+	- Extension Refinements
+	BETA - 5
+	- Special Page Handling
+	- Graphical Selectors
+	- Themes Extension
+	BETA - 4
+	- Section Control Rewrite
+		- Fixes issues with hiding same sections
+	- Metapanel rewrite
+	- Cloning & Meta Options
+	BETA - 1, 2, 3
+	- Sections Cloning
+	- Admin Rewrite
+	- Responsive Design
+	- Advanced Template Selector
+	- Improved Graphics 
+	- Updated JS Libs
+	- Rewrote Option Engine

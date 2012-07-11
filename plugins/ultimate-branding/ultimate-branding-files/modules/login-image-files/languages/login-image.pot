@@ -1,0 +1,78 @@
+# Translation of the WordPress plugin Login Image 1.0.4 by Andrew Billits, Ulrich Sossou (Incsub).
+# Copyright (C) 2011 Andrew Billits, Ulrich Sossou (Incsub)
+# This file is distributed under the same license as the Login Image package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Login Image 1.0.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/login-image\n"
+"POT-Creation-Date: 2011-01-21 09:00+0100\n"
+"PO-Revision-Date: 2011-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. #-#-#-#-#  login-image.pot (Login Image 1.0.4)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: login-image.php:68 login-image.php:75 login-image.php:182
+msgid "Login Image"
+msgstr ""
+
+#: login-image.php:171
+msgid "Nice Try..."
+msgstr ""
+
+#: login-image.php:176
+msgid "There was an error uploading the file, please try again."
+msgstr ""
+
+#: login-image.php:178
+msgid "Changes saved."
+msgstr ""
+
+#: login-image.php:185
+msgid "This is the image that is displayed on the login page (wp-login.php)."
+msgstr ""
+
+#: login-image.php:195
+msgid "Change Image"
+msgstr ""
+
+#: login-image.php:201
+msgid ""
+"Image will be cropped to 310px wide and 70px tall. For best results use an "
+"image of this size. Allowed Formats: jpeg, gif, and png"
+msgstr ""
+
+#: login-image.php:202
+msgid "Note that gif animations will not be preserved."
+msgstr ""
+
+#: login-image.php:205
+msgid "Upload"
+msgstr ""
+
+#: login-image.php:206
+msgid "Reset"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://premium.wpmudev.org/project/rebranding-wordpress-mu"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Allows you to change the login image"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Andrew Billits, Ulrich Sossou (Incsub)"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://premium.wpmudev.org/project/"
+msgstr ""

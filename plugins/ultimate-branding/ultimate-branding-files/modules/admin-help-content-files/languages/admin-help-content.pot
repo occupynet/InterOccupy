@@ -1,0 +1,99 @@
+# Translation of the WordPress plugin Admin Help Content 1.0.3 by Andrew Billits, Ulrich Sossou (Incsub).
+# Copyright (C) 2011 Andrew Billits, Ulrich Sossou (Incsub)
+# This file is distributed under the same license as the Admin Help Content package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Admin Help Content\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-01-05 11:00+0100\n"
+"PO-Revision-Date: 2012-01-05 11:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: Incsub\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: D:\\xampp\\htdocs\\prml\\wp-content\\plugins\\admin-help-content\n"
+"X-Poedit-SearchPath-0: admin-help-content-files\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: admin-help-content.php:41
+msgid "Please install the latest version of <a href=\"http://premium.wpmudev.org/project/update-notifications/\" title=\"Download Now &raquo;\">our free Update Notifications plugin</a> which helps you stay up-to-date with the most stable, secure versions of WPMU DEV themes and plugins. <a href=\"http://premium.wpmudev.org/wpmu-dev/update-notifications-plugin-information/\">More information &raquo;</a>"
+msgstr ""
+
+#: admin-help-content.php:151
+msgid "Admin Help"
+msgstr ""
+
+#: admin-help-content.php:176
+msgid "Help Content"
+msgstr ""
+
+#: admin-help-content.php:177
+msgid "Existing Help Items"
+msgstr ""
+
+#: admin-help-content.php:178
+msgid "Add New Help Item"
+msgstr ""
+
+#: admin-help-content.php:180
+msgid "Help Sidebar"
+msgstr ""
+
+#: admin-help-content.php:182
+msgid "Help Panel Settings"
+msgstr ""
+
+#: admin-help-content.php:192
+msgid "There are no existing help items to edit."
+msgstr ""
+
+#: admin-help-content.php:202
+msgid "Help Item Title"
+msgstr ""
+
+#: admin-help-content.php:204
+msgid "Help Item Content"
+msgstr ""
+
+#: admin-help-content.php:206
+msgid "Remove this item"
+msgstr ""
+
+#: admin-help-content.php:240
+msgid "New Help Item Title"
+msgstr ""
+
+#: admin-help-content.php:242
+msgid "New Help Item Content"
+msgstr ""
+
+#: admin-help-content.php:245
+#: admin-help-content.php:255
+msgid "HTML Allowed."
+msgstr ""
+
+#: admin-help-content.php:246
+msgid "Add"
+msgstr ""
+
+#: admin-help-content.php:267
+msgid "Do not show new help panels in Network Admin area"
+msgstr ""
+
+#: admin-help-content.php:276
+msgid "Keep default help items (if any) and merge the new ones with them."
+msgstr ""
+
+#: admin-help-content.php:303
+msgid "Admin Help Content"
+msgstr ""
+
+#: admin-help-content.php:307
+msgid "Admin Panel Help Settings"
+msgstr ""
+

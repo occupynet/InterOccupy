@@ -1,0 +1,32 @@
+/* @override http://dev.site/wp-content/plugins/ultimate-branding/ultimate-branding-files/css/defaultadmin.css?ver=1 */
+
+#poststuff form div.postbox div.inside h3 {
+	background: none;
+	background-image: none;
+	background-color: transparent;
+	border: none;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+tr.inactivemodule {
+	background-color: #ffcccc;
+	padding: 3px 5px;
+}
+
+tr.inactivemodule td {
+	padding: 8px 10px;
+	font-weight: bold;
+}
+
+tr.activemodule {
+	background-color: #ccffcc;
+	padding: 3px 5px;
+}
+
+tr.activemodule td {
+	padding: 8px 10px;
+	font-weight: bold;
+}
+
+/* 18246-1340937798-au */

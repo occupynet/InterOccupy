@@ -1,0 +1,37 @@
+.candy-wrapper,
+.candy-wrapper a{	
+	color:#FFF;
+	padding-bottom:10px; 
+	text-shadow:1px 1px 0 #aaa;
+}
+.candy-wrapper a:hover,
+.candy-wrapper a{color:#375772;}
+.candy-wrapper a{text-decoration:underline;}
+.candys{ min-width:750px;}
+.candy-wrapper p{	padding:0px; margin:0px; }
+.candy-close{
+	background:url( images/candy_bg.png ) repeat;
+	cursor: pointer;
+	height:10px;
+	width:100%;
+	z-index:999;
+}
+.candy-close-btn {
+	background: url(images/candy_x_button.png) no-repeat;
+	cursor: pointer;
+	height: 30px;
+	position: fixed;
+	right: 5px;
+	top: 38px;
+	width: 30px;
+	display:none;
+}
+.searchform { float:right; margin-top:0; margin-right:0px;  }
+
+#candy-notifications .content-pad { padding:10px 0 0; }
+.candy-wrapper { padding-left:30px; background: url(images/announce.png) no-repeat; }
+
+/* iPhone [portrait + landscape] */
+@media only screen and (max-device-width: 480px) {
+	.candy-wrapper p { font-size:9px; line-height: 11px; }
+}

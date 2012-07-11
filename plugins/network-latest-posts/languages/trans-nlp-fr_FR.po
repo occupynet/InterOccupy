@@ -1,0 +1,147 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Network Latest Posts in French\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-01 12:04+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jose Luis Sayago Rojas <jose.sayago@laelite.info>\n"
+"Language-Team: L'Elite <opensource@laelite.info>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:399
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:428
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:488
+msgid "published in"
+msgstr "publi&eacute; sur"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:407
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:436
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:496
+msgid "by"
+msgstr "par"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:407
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:436
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:496
+msgid "on"
+msgstr "le"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:456
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:515
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:558
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:596
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:457
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:516
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:559
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:597
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:643
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:755
+msgid "Latest Posts"
+msgstr "Derniers Articles"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:683
+msgid "Title"
+msgstr "Titre"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:685
+msgid "Number of posts to show"
+msgstr "Nombre d'articles &#224; afficher"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:687
+msgid "Number of days to limit"
+msgstr "Nombre de jours &#224; afficher"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:689
+msgid "Titles Only"
+msgstr "Titres Seulement"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:691
+msgid "True"
+msgstr "Oui"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:692
+msgid "False"
+msgstr "Non"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:694
+msgid "Blog ID"
+msgstr "ID du Blog"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:696
+msgid "Display All"
+msgstr "Afficher Tous"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:710
+msgid "Custom Post Type"
+msgstr "Type d'Article"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:712
+msgid "Blog(s) ID(s) to Ignore Separate by Commas"
+msgstr "ID du/des Blog(s) à Ignorer séparés par des virgules"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:714
+msgid "Category(ies) Slug(s) Separate by Commas"
+msgstr "Identifiant de Cat&eacute;gorie(s) séparés par des virgules"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:716
+msgid "Tag(s) Slug(s) Separate by Commas"
+msgstr "Identifiant de Tag(s) séparés par des virgules"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:718
+msgid "Paginate Results"
+msgstr "Resultats par Page"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:720
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:727
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:732
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:737
+msgid "No"
+msgstr "Non"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:721
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:728
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:733
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:738
+msgid "Yes"
+msgstr "Oui"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:723
+msgid "Excerpt Length"
+msgstr "Longueur de l'extrait"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:725
+msgid "Display Main Blog (Root)"
+msgstr "Afficher le Blog Principal (Racine)"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:730
+msgid "Auto-Excerpt"
+msgstr "Extrait Automatique"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:735
+msgid "Full Metadata"
+msgstr "Métadonnées Complètes"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:784
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:785
+msgid "Network Latest Posts"
+msgstr "Derniers Articles du R&eacute;seau"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:900
+#: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/plugins/network-latest-posts/network-latest-posts.php:913
+msgid "more"
+msgstr "lire le reste"
+

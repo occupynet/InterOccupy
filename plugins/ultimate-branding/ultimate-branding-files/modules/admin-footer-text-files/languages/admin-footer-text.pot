@@ -1,0 +1,82 @@
+# Translation of the WordPress plugin Admin Footer Text 1.0.6 by S H Mohanjith (Incsub), Andrew Billits (Incsub).
+# Copyright (C) 2011 S H Mohanjith (Incsub), Andrew Billits (Incsub)
+# This file is distributed under the same license as the Admin Footer Text package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Admin Footer Text 1.0.6\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/admin-footer-text\n"
+"POT-Creation-Date: 2011-01-03 00:55+0530\n"
+"PO-Revision-Date: 2011-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. #-#-#-#-#  admin-footer-text.pot (Admin Footer Text 1.0.6)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin-footer-text.php:65 admin-footer-text.php:69
+msgid "Admin Footer Text"
+msgstr ""
+
+#: admin-footer-text.php:94
+msgid "Nice Try..."
+msgstr ""
+
+#: admin-footer-text.php:109
+msgid "Admin Panel Footer Settings"
+msgstr ""
+
+#: admin-footer-text.php:113
+msgid "Footer Text"
+msgstr ""
+
+#: admin-footer-text.php:116
+msgid "HTML Allowed."
+msgstr ""
+
+#: admin-footer-text.php:121
+msgid "Save Changes"
+msgstr ""
+
+#: admin-footer-text.php:122
+msgid "Reset"
+msgstr ""
+
+#: admin-footer-text.php:132
+msgid "Settings cleared."
+msgstr ""
+
+#: admin-footer-text.php:143
+msgid "Settings saved."
+msgstr ""
+
+#: admin-footer-text.php:160
+msgid ""
+"Please install the latest version of <a href=\"http://premium.wpmudev.org/"
+"project/update-notifications/\" title=\"Download Now &raquo;\">our free "
+"Update Notifications plugin</a> which helps you stay up-to-date with the "
+"most stable, secure versions of WPMU DEV themes and plugins. <a href="
+"\"http://premium.wpmudev.org/wpmu-dev/update-notifications-plugin-"
+"information/\">More information &raquo;</a>"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://premium.wpmudev.org/project/admin-footer-text"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Display text in admin dashboard footer"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "S H Mohanjith (Incsub), Andrew Billits (Incsub)"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://premium.wpmudev.org"
+msgstr ""

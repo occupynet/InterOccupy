@@ -1,0 +1,21 @@
+Adminimize 1.7.9
+
+Filerne skal ligge i mappen adminimize/languages
+
+Anvender du de gemte stier, skal du unzippe til wp-content/plugins.
+Så pakkes sprogfilerne automatisk ud til wp-content/plugins/adminimize
+
+Du kan tjekke for opdateringer til sprogfilerne på http://wordpress.blogos.dk/wpdadkdownloads/
+eller via http://wordpress.blogos.dk/s%C3%B8g-efter-downloads/?did=208
+Se evt. også http://wordpress.blogos.dk/tag/adminimize
+
+
+
+FOR THE DEVELOPER
+You are very welcome to check for updated language files in one of the following ways:
+
+1. On my downloads page that list all files available for download: http://wordpress.blogos.dk/wpdadkdownloads/
+
+2. Directly on my Download Monitor download page: http://wordpress.blogos.dk/s%C3%B8g-efter-downloads/?did=208
+
+If I have blogged about your plugin, theme or other resource, you will be able to find it via this tag: http://wordpress.blogos.dk/tag/adminimize

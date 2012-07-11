@@ -1,0 +1,60 @@
+/* @override http://dev.site/mu/wp-content/mu-plugins/sitewidetextincludes/styles/sitewide.css?ver=1 */
+
+div#entryholder {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+div.postbox {
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+input.deletecheck {
+	vertical-align: 0px;
+	margin-right: 10px;
+}
+
+div.inside table {
+	margin: 5px;
+	width: 95%;
+}
+
+div.inside table tbody tr td.heading {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: right;
+	width: 20%;
+	padding-right: 5px;
+}
+
+input.long {
+	width: 90%;
+}
+input.short {
+	width: 50%;
+}
+
+div.inside table tbody tr td span {
+	font-size: 11px;
+	font-style: italic;
+}
+
+div.postbox h3.hndle {
+	margin: 0;
+	line-height: 1em;
+	font-size: 12px;
+	padding: 7px 9px
+}
+
+div.postbox h3.hndle span {
+	padding: 6px 0;
+}
+
+div.postbox:hover div.handlediv {
+	background: transparent url(../images/menu-bits.gif) no-repeat scroll left -111px;
+}
+
+/* 574-1334061181 */
+
+/* 18246-1340937798-au */

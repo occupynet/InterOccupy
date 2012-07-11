@@ -1,0 +1,26 @@
+== Description ==
+
+Add **ALL** Googlefonts to the PageLines font system.
+
+
+== Changelog ==
+
+= 1.4.1 =
+* Delete whitespace.
+* few fonts added.
+
+= 1.4 =
+* All fonts work on Lite edition.
+
+= 1.3 =
+* Using class system.
+* All 488 fonts included.
+
+= 1.2 =
+* Added more fonts.
+
+= 1.1 =
+* Add 50 new fonts.
+
+= 1.0 = 
+* Initial release.

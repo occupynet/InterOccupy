@@ -1,0 +1,84 @@
+@yellow: #FFD942;
+@yellow-darker: #dcbc3d;
+@black: #252525; 
+@black2: lighten ( @black, 10% );
+@white: #FFF;
+@offwhite: #ededed; 
+@lightgray: #595959;
+@blue: #335D99;  
+ 
+
+.rounded-corners (@radius: 5px) { 
+	border-radius: @radius; -webkit-border-radius: @radius; -moz-border-radius: @radius; 
+}
+.larger { 
+	font-size:1.3em; 
+}
+
+h1, h2, h3, h4 { font-family: LeagueGothicRegular, Helvetica, Arial, sans-serif !important; color:@black; text-transform: uppercase; font-weight: normal; }
+h1, .fpost .entry-title, .thenly h1 { font-size:300%; line-height: 1em; font-weight:normal; margin-top:0; margin-bottom:10px; }
+.hentry h1, .hentry h2 { margin:0; }
+#brandnav { background:url(images/bg-header.png) repeat @black; }
+#brandnav .content-pad { padding:1em 0 !important; }
+.brandnav-nav { padding:8px; border-top:1px solid #595959; border-bottom:1px solid #595959; margin-top:2px; }
+.main_nav li a { color: @yellow; line-height: 1em; padding: 10px 25px; font-size: 14px; text-transform: uppercase; font-weight: normal;  }
+ul.tabbed-list > li { margin-right:30px; }
+ul.tabbed-list > li:last-child { margin-right:0px; }
+span.sf-sub-indicator { background:url('@{plChildRoot}/images/arrows-yellow.png') no-repeat; }
+.main-nav li a:hover, .main-nav .current-menu-ancestor .current_page_item a, .main-nav li.current-menu-ancestor ul a:hover { background:@black2 !important; color:@yellow; }
+.main-nav li:hover, .main-nav .current-page-ancestor a, .main-nav li.current-page-ancestor ul a, .main-nav li.current_page_item a, .main-nav li.current-menu-item a, .sf-menu li li, .sf-menu li li li, .main-nav > li.current_page_parent > a { background:@black2 !important; color:@white;}
+.main-nav li li a:hover { color:@white; }
+.main-nav > li.current-menu-item > a, .main-nav > li.current-menu-ancestor > a,
+.main-nav > li.current_page_parent > a { .rounded-corners; }
+ul.action { list-style:none; font-family: @plHeaderFont; text-transform: uppercase;}
+.action li { background:url('@{plChildRoot}/images/bullet-tag.png') no-repeat 0 6px; padding-left:30px; }
+
+body.page-id-23 #features { background:@offwhite url('@{plChildRoot}/images/feature-shadow.png') top center no-repeat; }
+#page-main { background:url('@{plChildRoot}/images/feature-shadow.png') top center no-repeat; }
+#feature_slider .action li a { color:@lightgray; }
+#feature_slider .action li a:hover { color:@black; }
+.page-id-23 #column-main { margin-top:30px; }
+
+input[type="submit"], .submit, input[type="button"], .button, input[type="reset"], .reset { background:@yellow; font-family: @plHeaderFont; text-transform: uppercase; color:@black; }
+
+section#sb_universal { margin-top:-20px; }
+section#postloop { margin-bottom:0; }
+#sb_universal h3.widget-title { font-size:34px; color:@black; border-bottom:none; margin-bottom:0;}
+h3.widget-title { font-size:28px; border-bottom:none; margin-bottom:0; color:@blue;}
+#column-main #wdg_specialrecentposts-2 { width:55%; float:left; }
+#column-main #wdg_specialrecentposts-3, #text-5 { width:42%; float:right; }
+.widget .srp-widget-singlepost { padding-top:0; }
+.widget ul { margin-left:0; }
+h4.srp-post-title, h4.network-posts-title { text-transform: none; font-family: @plHeaderFont !important; font-size:16px;  }
+#network-latest-posts h4.srp-post-title { font-size:14px; }
+.srp-widget-date { font-size:11px; font-style: italic; }
+.srp-widget-excerpt { font-size:13px; }
+.network-posts-source { font-style:italic; font-size:11px; color:rgba(0,0,0,0.6); }
+.textwidget { padding-top:0; }
+#sidebar1 .srp-widget-singlepost { width:213px; }
+.widget .srp-widget-singlepost { padding-bottom:10px; }
+.widget div.srp-widget-singlepost { margin-bottom:10px; }
+
+#sidebar1 .network-posts img, #sidebar2 .network-posts img, .network-posts-excerpt, .network-posts-pagination, #text-5 img { display:none; }
+.network-posts { border-bottom: 1px solid #F2F2F2; padding-bottom:10px; margin-bottom:10px; }
+
+.tags a { padding-left:30px;background:url('@{plChildRoot}/images/bullet-tag.png') no-repeat 0 2px; }
+p, .p, .hentry ul, .hentry ol { margin:.5em 0 1em; }
+body p { font-size:15px; }
+
+h3.ai1ec-date-title { font-family: @plHeaderFont !important; letter-spacing:0; }
+
+.label { background:none; color:@black; font-style:italic; }
+#postloop { margin-top:0; }
+.blog #features { margin-bottom:0; }
+
+#footer { background:@black; color:#FFF; }
+
+/* iPhone [portrait + landscape] */
+@media only screen and (max-device-width: 480px) {
+	ul.tabbed-list > li { margin-right:14px; }
+}
+/*iPad [portrait + landscape] */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	ul.tabbed-list > li { margin-right:14px; }
+}

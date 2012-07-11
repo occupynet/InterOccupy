@@ -1,0 +1,768 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Branding\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-14 01:17+0100\n"
+"PO-Revision-Date: 2012-06-14 01:17+0100\n"
+"Last-Translator: Barry <barry@mapinated.com>\n"
+"Language-Team: Incsub <contact@incsub.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: /Users/barrygetty/Work/wordpress/plugins/ultimate-branding\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ultimate-branding-files/classes/class.help.php:94
+#: ultimate-branding-files/classes/ubadmin.php:351
+msgid "Dashboard"
+msgstr ""
+
+#: ultimate-branding-files/classes/class.help.php:108
+msgid "Custom Site Generator"
+msgstr ""
+
+#: ultimate-branding-files/classes/class.help.php:122
+#: ultimate-branding-files/classes/ubadmin.php:746
+#: ultimate-branding-files/help/contextual.footer.php:1
+msgid "Custom Footer Content"
+msgstr ""
+
+#: ultimate-branding-files/classes/class.help.php:136
+#: ultimate-branding-files/classes/ubadmin.php:172
+#: ultimate-branding-files/classes/ubadmin.php:370
+msgid "Permalinks Menu"
+msgstr ""
+
+#: ultimate-branding-files/classes/class.help.php:150
+msgid "Network Text Change"
+msgstr ""
+
+#: ultimate-branding-files/classes/class.help.php:164
+#: ultimate-branding-files/classes/ubadmin.php:169
+#: ultimate-branding-files/classes/ubadmin.php:368
+msgid "Widgets"
+msgstr ""
+
+#: ultimate-branding-files/classes/class.help.php:179
+#: ultimate-branding-files/classes/ubadmin.php:605
+#: ultimate-branding-files/help/contextual.images.php:1
+msgid "Custom Images"
+msgstr ""
+
+#: ultimate-branding-files/classes/class.help.php:194
+#: ultimate-branding-files/classes/ubadmin.php:699
+#: ultimate-branding-files/help/contextual.help.php:1
+msgid "Custom Help Content"
+msgstr ""
+
+#: ultimate-branding-files/classes/class.help.php:209
+#: ultimate-branding-files/classes/ubadmin.php:652
+#: ultimate-branding-files/help/contextual.adminbar.php:1
+msgid "Custom Admin Bar"
+msgstr ""
+
+#: ultimate-branding-files/classes/class.help.php:224
+#: ultimate-branding-files/classes/ubadmin.php:983
+msgid "Custom CSS"
+msgstr ""
+
+#: ultimate-branding-files/classes/ubadmin.php:126
+msgid "<b>[Ultimate Branding]</b> Plugin only works in Multisite."
+msgstr ""
+
+#: ultimate-branding-files/classes/ubadmin.php:135
+#, php-format
+msgid "<b>[Ultimate Branding]</b> Please deactivate the following plugin(s) to make Ultimate Branding to work: %s"
+msgstr ""
+
+#: ultimate-branding-files/classes/ubadmin.php:145
+#: ultimate-branding-files/classes/ubadmin.php:450
+#: ultimate-branding-files/classes/ubadmin.php:466
+msgid "Branding"
+msgstr ""
+
+#: ultimate-branding-files/classes/ubadmin.php:154
+#: ultimate-branding-files/classes/ubadmin.php:356
+msgid "Images"
+msgstr ""
+
+#: ultimate-branding-files/classes/ubadmin.php:157
+#: ultimate-branding-files/classes/ubadmin.php:358
+msgid "Admin Bar"
+msgstr ""
+
+#: ultimate-branding-files/classes/ubadmin.php:160
+#: ultimate-branding-files/classes/ubadmin.php:360
+msgid "Help Content"
+msgstr ""
+
+#: ultimate-branding-files/classes/ubadmin.php:164
+#: ultimate-branding-files/classes/ubadmin.php:363
+msgid "Footer Content"
+msgstr ""
+
+#: ultimate-branding-files/classes/ubadmin.php:175
+#: ultimate-branding-files/classes/ubadmin.php:372
+msgid "Site Generator"
+msgstr ""
+
+#: ultimate-branding-files/classes/ubadmin.php:178
+#: ultimate-branding-files/classes/ubadmin.php:374
+msgid "Text Change"
+msgstr ""
+
+#: ultimate-branding-files/classes/ubadmin.php:182
+#: ultimate-branding-files/classes/ubadmin.php:377
+msgid "CSS"
+msgstr ""
+
+#: ultimate-branding-files/classes/ubadmin.php:489
+msgid "Module Status"
+msgstr ""
+
+#: ultimate-branding-files/classes/ubadmin.php:527
+#: ultimate-branding-files/classes/ubadmin.php:531
+msgid "Available Modules"
+msgstr ""
+
+#: ultimate-branding-files/classes/ubadmin.php:558
+msgid "Disable"
+msgstr ""
+
+#: ultimate-branding-files/classes/ubadmin.php:571
+msgid "Enable"
+msgstr ""
+
+#: ultimate-branding-files/classes/ubadmin.php:581
+msgid "No modules avaiable."
+msgstr ""
+
+#: ultimate-branding-files/classes/ubadmin.php:598
+#: ultimate-branding-files/classes/ubadmin.php:645
+#: ultimate-branding-files/classes/ubadmin.php:692
+#: ultimate-branding-files/classes/ubadmin.php:739
+#: ultimate-branding-files/classes/ubadmin.php:786
+#: ultimate-branding-files/classes/ubadmin.php:833
+#: ultimate-branding-files/classes/ubadmin.php:880
+#: ultimate-branding-files/classes/ubadmin.php:927
+#: ultimate-branding-files/classes/ubadmin.php:976
+msgid "Changes saved."
+msgstr ""
+
+#: ultimate-branding-files/classes/ubadmin.php:599
+#: ultimate-branding-files/classes/ubadmin.php:646
+#: ultimate-branding-files/classes/ubadmin.php:787
+#: ultimate-branding-files/classes/ubadmin.php:834
+msgid "There was an error uploading the file, please try again."
+msgstr ""
+
+#: ultimate-branding-files/classes/ubadmin.php:693
+#: ultimate-branding-files/classes/ubadmin.php:740
+#: ultimate-branding-files/classes/ubadmin.php:881
+msgid "Changes could not be saved."
+msgstr ""
+
+#: ultimate-branding-files/classes/ubadmin.php:793
+#: ultimate-branding-files/help/contextual.widgets.php:1
+msgid "Custom Widgets"
+msgstr ""
+
+#: ultimate-branding-files/classes/ubadmin.php:840
+#: ultimate-branding-files/help/contextual.permalinks.php:1
+msgid "Remove Permalinks Menu"
+msgstr ""
+
+#: ultimate-branding-files/classes/ubadmin.php:887
+#: ultimate-branding-files/help/contextual.sitegenerator.php:1
+msgid "Custom Site Generator Content"
+msgstr ""
+
+#: ultimate-branding-files/classes/ubadmin.php:928
+#: ultimate-branding-files/classes/ubadmin.php:977
+msgid "There was an error, please try again."
+msgstr ""
+
+#: ultimate-branding-files/classes/ubadmin.php:934
+#: ultimate-branding-files/help/contextual.textchange.php:1
+msgid "Network Wide Text Change"
+msgstr ""
+
+#: ultimate-branding-files/classes/ubadmin.php:935
+msgid "Add New"
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.adminbar.php:3
+msgid "This module allows you to remove some of the default menu items from the Admin Bar and add / edit the menu items that are shown in the leftmost menu on the Admin Bar (the one with the WordPress W on it)."
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.adminbar.php:6
+msgid "The Main Menu Title can either be a simple piece of text, or a link to a URL."
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.adminbar.php:9
+msgid "Each menu item can have a unique title, and a link to either an internal admin page or to a page on a completely different site. Once you have created all of the menu items that you want to use, you can re-arrange their order by simply dragging them to the correct location with your mouse."
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.css.php:1
+msgid "Custom Admin CSS"
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.css.php:3
+msgid "Any CSS styles added to this area will be included in the header of all the admin pages on all the sites across your network. You can use this to hide elements, or simply change the color of menus and / or text."
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.css.php:5
+msgid "Custom Login CSS"
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.css.php:7
+msgid "Any CSS styles added to this area will be included in the header of the login pages on all the sites across your network. It can be used to add backgrounds or customize the login page for your network."
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.dashboard.php:1
+msgid "Ultimate Branding Dashboard"
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.dashboard.php:3
+msgid "The Ultimate Branding Dashboard allows you to decide which branding modules you wish to have enabled across your network."
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.dashboard.php:6
+msgid "To enable a module, simply click on the Enable link next to the modules name. The settings for that module can then be controlled via the newly added tab at the top of the Brandin administration page."
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.footer.php:3
+msgid "The modules shown on this page allow you to control the content in the admin area and the public side of your network sites."
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.footer.php:5
+msgid "Global Footer Content"
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.footer.php:7
+msgid "The content entered into the Global Footer Content area is added to the front end of every site on your network. It is useful for adding promotional links to your main network site, advertising and analytics scripts."
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.footer.php:9
+msgid "Dashboard Footer Content"
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.footer.php:11
+msgid "The content entered into the Dashboard Footer Content area replaces the WordPress text at the bottom of the dashboard area on every site in your network."
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.help.php:3
+msgid "This module allows you to add and / or replace any of the contextual help content across all the sites of your network."
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.help.php:5
+msgid "What is contextual help?"
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.help.php:7
+msgid "You are reading a contextual help item now. By creating new Help Items, you will add menu items to the left of this area (underneath the Custom Help Content menu), which will show the relevant help content when it is clicked on."
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.help.php:9
+msgid "Setting a Help Sidebar?"
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.help.php:11
+msgid "If you enter any content in the Help Sidebar area, then you can add some sidebar text to the right hand side of the contextual help content. This can contain links to common areas such as forums or support documents."
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.help.php:13
+msgid "Replacing existing help"
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.help.php:15
+msgid "If you check the <em>Keep default help items (if any) and merge the new ones with them.</em> box then the module will attempt to merge your new help items with any already in existence for the page. If you uncheck the box, then your new help items will replace any of the default ones."
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.images.php:3
+msgid "The modules shown on this page allow you change the favicons and login images used on the sites across your network."
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.images.php:5
+msgid "Login Image"
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.images.php:7
+msgid "The Login Image is the logo shown on top of the Login form on the sites of your network. You can change this image by uploading a new one using the form. If you want to reset the system to use the default WordPress image, then click on the <em>Reset the image</em> link."
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.images.php:9
+msgid "Favicons"
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.images.php:11
+msgid "A Favicon is a small image that is shown in the browser address bar and tab when a site is viewed. You can change the default image by uploading a new one using this form. The image should be square and will be resized to the correct size. If you want to reset the system to use the default WordPress image, then click on the <em>Reset the image</em> link."
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.permalinks.php:3
+msgid "The Remove Permalinks Menu module does not have any settings, it simply removes the Permalinks menu from all of the sites on your network."
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.sitegenerator.php:3
+msgid "By Default WordPress identifies itself as the site generator on all your network sites. You can use the options on this page to change the site generator and generator link to your own brand and site url."
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.textchange.php:3
+msgid "This module allows you to change any item of text across WordPress with text of your own. It is useful if you want to, for example, remove the word WordPress from any of the menus of text and replace it with your own brand."
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.textchange.php:6
+msgid "If you want to limit the text change to within a certain plugin or theme, then you need to find the text domain for that plugin / theme and enter that in the area labelled <strong>in this text domain</strong>. E.G. The text domain for this plugin is <strong>ub</strong>."
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.widgets.php:3
+msgid "The modules shown on this page allow you to control some of the widgets on your network."
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.widgets.php:5
+msgid "Remove WordPress Dashboard Widgets"
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.widgets.php:7
+msgid "This module allows you to select which of the default Dashboard widgets you want to remove from all the sites across your network."
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.widgets.php:9
+msgid "Rebranded Meta Widget"
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.widgets.php:11
+msgid "The rebranded meta widget does not have any settings, but simply replaces the standard WordPress meta widget with a new one that removes any mention of WordPress or links to the WordPress site."
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.widgets.php:13
+msgid "Hide Dashboard Welcome"
+msgstr ""
+
+#: ultimate-branding-files/help/contextual.widgets.php:15
+msgid "There are no settings for this module. It simply removes the WordPress Welcome message from a new sites dashboard."
+msgstr ""
+
+#: ultimate-branding-files/help/dashboard.help.php:1
+msgid "Welcome to the Ultimate Branding plugin, follow the steps below to get started."
+msgstr ""
+
+#: ultimate-branding-files/help/dashboard.help.php:4
+msgid "Choose which modules you want to use from the list on the right hand side of this page and click the <strong>Enable</strong> link next to each one."
+msgstr ""
+
+#: ultimate-branding-files/help/dashboard.help.php:8
+msgid "Each module enabled will add a tab to the top of the Ultimate Branding page."
+msgstr ""
+
+#: ultimate-branding-files/help/dashboard.help.php:11
+msgid "Once you have enabled all of the modules you want to use, go through each of the tabs at the top of the page and set up the options for that area."
+msgstr ""
+
+#: ultimate-branding-files/help/dashboard.help.php:15
+msgid "Click on the <strong>Save Changes</strong> button once you have completed the information on a tab to save the settings, before moving on to the next tab."
+msgstr ""
+
+#: ultimate-branding-files/modules/admin-footer-text.php:113
+msgid "Footer Text"
+msgstr ""
+
+#: ultimate-branding-files/modules/admin-footer-text.php:120
+#: ultimate-branding-files/modules/admin-footer-text.php:140
+#: ultimate-branding-files/modules/admin-help-content.php:232
+#: ultimate-branding-files/modules/admin-help-content.php:247
+msgid "HTML Allowed."
+msgstr ""
+
+#: ultimate-branding-files/modules/admin-help-content.php:55
+msgid "You can change the content in this Help drop-down by going to Branding > Help Content."
+msgstr ""
+
+#: ultimate-branding-files/modules/admin-help-content.php:126
+msgid "Admin Help"
+msgstr ""
+
+#: ultimate-branding-files/modules/admin-help-content.php:149
+msgid "Existing Help Items"
+msgstr ""
+
+#: ultimate-branding-files/modules/admin-help-content.php:150
+msgid "Add New Help Item"
+msgstr ""
+
+#: ultimate-branding-files/modules/admin-help-content.php:152
+msgid "Help Sidebar"
+msgstr ""
+
+#: ultimate-branding-files/modules/admin-help-content.php:154
+msgid "Help Panel Settings"
+msgstr ""
+
+#: ultimate-branding-files/modules/admin-help-content.php:164
+msgid "There are no existing help items to edit."
+msgstr ""
+
+#: ultimate-branding-files/modules/admin-help-content.php:175
+msgid "Help Item Title"
+msgstr ""
+
+#: ultimate-branding-files/modules/admin-help-content.php:182
+msgid "Help Item Content"
+msgstr ""
+
+#: ultimate-branding-files/modules/admin-help-content.php:183
+msgid "Remove this item"
+msgstr ""
+
+#: ultimate-branding-files/modules/admin-help-content.php:224
+msgid "New Help Item Title"
+msgstr ""
+
+#: ultimate-branding-files/modules/admin-help-content.php:226
+msgid "New Help Item Content"
+msgstr ""
+
+#: ultimate-branding-files/modules/admin-help-content.php:233
+msgid "Add"
+msgstr ""
+
+#: ultimate-branding-files/modules/admin-help-content.php:261
+msgid "Do not show new help panels in Network Admin area"
+msgstr ""
+
+#: ultimate-branding-files/modules/admin-help-content.php:269
+msgid "Keep default help items (if any) and merge the new ones with them."
+msgstr ""
+
+#: ultimate-branding-files/modules/admin-help-content.php:330
+msgid "Admin Panel Help Settings"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-css.php:87
+#: ultimate-branding-files/modules/custom-login-css.php:85
+msgid "CSS Styles"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-css.php:91
+msgid "What is added here will be added to the header of every admin page for every site."
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-dashboard-welcome.php:47
+msgid "The Dashboard Welcome message is now hidden."
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-login-css.php:89
+msgid "What is added here will be added to the header of the login page for every site."
+msgstr ""
+
+#: ultimate-branding-files/modules/favicons.php:78
+#: ultimate-branding-files/modules/login-image.php:130
+msgid "The GD image library is not installed."
+msgstr ""
+
+#: ultimate-branding-files/modules/favicons.php:142
+msgid "This is the image that is displayed as a Favicon - "
+msgstr ""
+
+#: ultimate-branding-files/modules/favicons.php:143
+#: ultimate-branding-files/modules/login-image.php:194
+msgid "Reset the image"
+msgstr ""
+
+#: ultimate-branding-files/modules/favicons.php:149
+msgid "None set"
+msgstr ""
+
+#: ultimate-branding-files/modules/favicons.php:154
+#: ultimate-branding-files/modules/login-image.php:205
+msgid "Change Image"
+msgstr ""
+
+#: ultimate-branding-files/modules/favicons.php:160
+msgid "Image must be 500KB maximum. It will be cropped to 16px wide and 16px tall. For best results use an image of this size. Allowed Formats: jpeg, gif, and png"
+msgstr ""
+
+#: ultimate-branding-files/modules/favicons.php:161
+#: ultimate-branding-files/modules/login-image.php:212
+msgid "Note that gif animations will not be preserved."
+msgstr ""
+
+#: ultimate-branding-files/modules/global-footer-content.php:96
+msgid "What is added here will be shown on every blog or site in your network. You can add tracking code, embeds, terms of service links, etc."
+msgstr ""
+
+#: ultimate-branding-files/modules/login-image.php:193
+msgid "This is the image that is displayed on the login page (wp-login.php) - "
+msgstr ""
+
+#: ultimate-branding-files/modules/login-image.php:211
+msgid "Image must be 500KB maximum. It will be cropped to 310px wide and 70px tall. For best results use an image of this size. Allowed Formats: jpeg, gif, and png"
+msgstr ""
+
+#: ultimate-branding-files/modules/rebranded-meta-widget.php:55
+msgid "The Rebranded Meta Widget is enabled"
+msgstr ""
+
+#: ultimate-branding-files/modules/rebranded-meta-widget.php:68
+msgid "Log in/out, admin, feed and powered-by links"
+msgstr ""
+
+#: ultimate-branding-files/modules/rebranded-meta-widget.php:69
+#: ultimate-branding-files/modules/rebranded-meta-widget.php:74
+msgid "Meta"
+msgstr ""
+
+#: ultimate-branding-files/modules/rebranded-meta-widget.php:87
+msgid "Syndicate this site using RSS 2.0"
+msgstr ""
+
+#: ultimate-branding-files/modules/rebranded-meta-widget.php:87
+msgid "Entries <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr ""
+
+#: ultimate-branding-files/modules/rebranded-meta-widget.php:88
+msgid "The latest comments to all posts in RSS"
+msgstr ""
+
+#: ultimate-branding-files/modules/rebranded-meta-widget.php:88
+msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr ""
+
+#: ultimate-branding-files/modules/rebranded-meta-widget.php:89
+#, php-format
+msgid "Powered by %s"
+msgstr ""
+
+#: ultimate-branding-files/modules/rebranded-meta-widget.php:107
+msgid "Title:"
+msgstr ""
+
+#: ultimate-branding-files/modules/remove-permalinks-menu-item.php:27
+msgid "Remove Permalinks Menu Item"
+msgstr ""
+
+#: ultimate-branding-files/modules/remove-permalinks-menu-item.php:29
+msgid "The Permalinks menu item is hidden."
+msgstr ""
+
+#: ultimate-branding-files/modules/remove-wp-dashboard-widgets.php:57
+msgid "Browser Nag"
+msgstr ""
+
+#: ultimate-branding-files/modules/remove-wp-dashboard-widgets.php:58
+msgid "Right Now"
+msgstr ""
+
+#: ultimate-branding-files/modules/remove-wp-dashboard-widgets.php:59
+msgid "Recent Comments"
+msgstr ""
+
+#: ultimate-branding-files/modules/remove-wp-dashboard-widgets.php:60
+msgid "Incoming Links"
+msgstr ""
+
+#: ultimate-branding-files/modules/remove-wp-dashboard-widgets.php:61
+msgid "Plugins"
+msgstr ""
+
+#: ultimate-branding-files/modules/remove-wp-dashboard-widgets.php:62
+msgid "QuickPress"
+msgstr ""
+
+#: ultimate-branding-files/modules/remove-wp-dashboard-widgets.php:63
+msgid "Recent Drafts"
+msgstr ""
+
+#: ultimate-branding-files/modules/remove-wp-dashboard-widgets.php:64
+msgid "Primary Feed"
+msgstr ""
+
+#: ultimate-branding-files/modules/remove-wp-dashboard-widgets.php:65
+msgid "Secondary Feed"
+msgstr ""
+
+#: ultimate-branding-files/modules/remove-wp-dashboard-widgets.php:73
+msgid "Remove WordPress Dashboard Widgets "
+msgstr ""
+
+#: ultimate-branding-files/modules/remove-wp-dashboard-widgets.php:75
+msgid "Select which widgets you want to remove from all dashboards on your network from the list below."
+msgstr ""
+
+#: ultimate-branding-files/modules/site-generator-replacement.php:123
+msgid "Site Generator Options"
+msgstr ""
+
+#: ultimate-branding-files/modules/site-generator-replacement.php:128
+msgid "Generator Text"
+msgstr ""
+
+#: ultimate-branding-files/modules/site-generator-replacement.php:132
+msgid "<br /><small>Change the \"generator\" information from WordPress to something you prefer.</small>"
+msgstr ""
+
+#: ultimate-branding-files/modules/site-generator-replacement.php:137
+msgid "Generator Link"
+msgstr ""
+
+#: ultimate-branding-files/modules/site-generator-replacement.php:141
+msgid "<br /><small>Change the \"generator link\" from WordPress to something you prefer.</small>"
+msgstr ""
+
+#: ultimate-branding-files/modules/site-wide-text-change.php:86
+msgid "Warning, this page is not loaded with the full replacements processed."
+msgstr ""
+
+#: ultimate-branding-files/modules/site-wide-text-change.php:131
+#: ultimate-branding-files/modules/site-wide-text-change.php:187
+msgid "Find this text"
+msgstr ""
+
+#: ultimate-branding-files/modules/site-wide-text-change.php:138
+msgid "Ignore case when replacing text."
+msgstr ""
+
+#: ultimate-branding-files/modules/site-wide-text-change.php:144
+msgid "in this text domain"
+msgstr ""
+
+#: ultimate-branding-files/modules/site-wide-text-change.php:148
+#: ultimate-branding-files/modules/site-wide-text-change.php:203
+msgid "( leave blank for global changes )"
+msgstr ""
+
+#: ultimate-branding-files/modules/site-wide-text-change.php:154
+#: ultimate-branding-files/modules/site-wide-text-change.php:209
+msgid "and replace it with"
+msgstr ""
+
+#: ultimate-branding-files/modules/site-wide-text-change.php:180
+msgid "New Text Change Rule"
+msgstr ""
+
+#: ultimate-branding-files/modules/site-wide-text-change.php:193
+msgid "Ignore case when finding text."
+msgstr ""
+
+#: ultimate-branding-files/modules/site-wide-text-change.php:199
+msgid "in this text <abbr title=\"A text domain is related to the internationisation of the text, you should leave this blank unless you know what it means.\">domain</abbr>"
+msgstr ""
+
+#: ultimate-branding-files/modules/site-wide-text-change.php:283
+#: ultimate-branding-files/modules/site-wide-text-change.php:311
+msgid "Delete selected"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_form_renderer.php:15
+msgid "Yes"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_form_renderer.php:18
+msgid "No"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_form_renderer.php:35
+msgid "<p>If you'd like to use an image instead of text, please paste the full URL of your image in the box (starting with <code>http://</code> - e.g. <code>http://example.com/myimage.gif</code>).</p><p>For best results, make sure your image has a transparent background and is no more than 28px high.</p>"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_form_renderer.php:57
+msgid "Nowhere, it is just a menu hub"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_form_renderer.php:60
+msgid "Main site home URL"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_form_renderer.php:63
+msgid "Current site home URL"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_form_renderer.php:66
+msgid "Site Admin area"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_form_renderer.php:69
+msgid "This URL"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_form_renderer.php:88
+msgid "Delete"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_form_renderer.php:90
+msgid "Edit"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_form_renderer.php:99
+msgid "<p>Drag and drop links to sort them into the order you want.</p>"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_form_renderer.php:104
+msgid "URL:"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_form_renderer.php:106
+msgid "Administrative page (e.g. \"post-new.php\" or \"themes.php\")"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_form_renderer.php:107
+msgid "Site page (e.g. \"/\" or \"/2007-06-05/an-old-post\")"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_form_renderer.php:108
+msgid "External page (e.g. \"http://www/example.com/2007-06-05/an-old-post\")"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_form_renderer.php:109
+msgid "Preview:"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_form_renderer.php:121
+msgid "WordPress menu"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_form_renderer.php:122
+msgid "Site menu"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_form_renderer.php:123
+msgid "My Sites"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_form_renderer.php:125
+msgid "Comments"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_form_renderer.php:126
+msgid "Updates"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_pages.php:54
+msgid "Settings"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_pages.php:55
+msgid "Enable Custom entry"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_pages.php:56
+msgid "Entry title <br /><small>(text or image)</small>"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_pages.php:57
+msgid "Title link leads to"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_pages.php:58
+msgid "Add new link"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_pages.php:59
+msgid "Configure Links"
+msgstr ""
+
+#: ultimate-branding-files/modules/custom-admin-bar-files/lib/class_wdcab_admin_pages.php:61
+msgid "Disable WordPress menu items"
+msgstr ""
+

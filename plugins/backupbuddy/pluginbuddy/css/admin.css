@@ -1,0 +1,112 @@
+#tooltip {
+	position: absolute;
+	z-index: 3000;
+	border: 2px solid #DFDFDF;
+	padding: 12px;
+	max-width: 300px;
+	
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	
+	-webkit-box-shadow: 6px 6px 25px 15px rgba(0, 0, 0, .08);
+	-moz-box-shadow: 6px 6px 25px 15px rgba(0, 0, 0, .08);
+	box-shadow: 6px 6px 25px 15px rgba(0, 0, 0, .08); 
+	
+	background: #ededed;
+	background: -moz-linear-gradient(top, #ededed 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#ffffff));
+	background: -webkit-linear-gradient(top, #ededed 0%,#ffffff 100%);
+	background: -o-linear-gradient(top, #ededed 0%,#ffffff 100%);
+	background: -ms-linear-gradient(top, #ededed 0%,#ffffff 100%);
+	background: linear-gradient(top, #ededed 0%,#ffffff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#ffffff',GradientType=0 );
+}
+#tooltip h3, #tooltip div { margin: 0; }
+.pluginbuddy-nodecor a {
+	text-decoration: none;
+}
+.pluginbuddy_tip img {
+	vertical-align: -2px;
+}
+
+td.pb_draghandle {
+	cursor: move;
+	text-align: center;
+	vertical-align: middle;
+}
+
+tr.tDnD_whileDrag td,tr.tDnD_whileDrag th{
+	background: #EEEEEE;
+	border-top: 1px solid #BBBBBB !important;
+	border-bottom: 1px solid #BBBBBB !important;
+	padding-top: 2px;
+}
+.pb_debug {
+	float: right;
+	background: #FF8989;
+	border: 2px solid red;
+	padding: 8px;
+	width: 40px;
+	position: absolute;
+	right: 0;
+	z-index: 9000;
+}
+.pb_debug_show {
+	cursor: pointer;
+	float: right;
+}
+.pb_debug_hide {
+	cursor: pointer;
+	display: none;
+	float: right;
+}
+.pb_debug_content {
+	display: none;
+}
+.pb_debug textarea {
+	width: 100%;
+	height: 100px;
+}
+
+.pb_htitle {
+	font-size: 15px;
+	border-bottom: 1px solid #DFDFDF;
+	margin-top: 20px;
+}
+
+.pb_toggle {
+	cursor: pointer;
+}
+.pb_toggled {
+	display: none;
+	border: 1px solid #CCCCCC;
+	margin: 4px;
+	padding: 8px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+#pb_backupbuddy_status {
+	width: 100%;
+	height: 200px;
+}
+
+/* Tabs ----------------------------------*/
+.ui-tabs { border-top: 1px solid #DFDFDF; margin-top: 20px; } /* padding: .2em; zoom: 1; */
+.ui-tabs .ui-tabs-nav { z-index: 15; list-style: none; position: relative; padding: 0px 0px 0px; margin-top: -15px; margin-left: 10px; }
+.ui-tabs .ui-tabs-nav li { margin: -11px 3px -1px 0px; position: relative; float: left; padding: 0; text-align: center; }
+.ui-tabs .ui-tabs-nav li a {
+	background-color: #EDEDED; height: 19px; float: left; text-decoration: none; padding-left: 10px; padding-right: 10px;
+	-moz-border-radius: 10px 10px 0px 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	border-radius: 10px 10px 0px 0px;
+	border: 1px solid #DFDFDF; outline: none; padding-top: 5px;
+}
+.ui-tabs .ui-tabs-nav li a:hover { background-color: #DFDFDF; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected {  } /* padding-bottom: 0px; */
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { height: 20px; cursor: text; background-color: #F9F9F9; font-weight: bold; border-bottom: 0px; color: #333333; }
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel { padding: 0; padding-top: 10px; display: block; border-width: 0; background: none; }
+.ui-tabs .ui-tabs-hide { display: none !important; }
