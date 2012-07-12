@@ -1,0 +1,142 @@
+/*  
+Theme Name: Base Theme
+Theme URI: http://www.pagelines.com/
+Description: A starter child theme for PageLines.  Use this as a reference for building your own child themes for PageLines Store.
+Version: 1.0.2
+Author: PageLines
+Author URI: http://www.pagelines.com
+Tags: developer
+
+Template: pagelines
+
+Yellow: #FFCE00
+Blue: #335D99
+
+*/
+
+@font-face {
+    font-family: 'LeagueGothicRegular';
+    src: url('http://interoccupy.net/wp-content/themes/pagelines-template-theme/fonts/League_Gothic-webfont.eot');
+    src: url('http://interoccupy.net/wp-content/themes/pagelines-template-theme/fonts/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://interoccupy.net/wp-content/themes/pagelines-template-theme/fonts/League_Gothic-webfont.woff') format('woff'),
+         url('http://interoccupy.net/wp-content/themes/pagelines-template-theme/fonts/League_Gothic-webfont.ttf') format('truetype'),
+         url('http://interoccupy.net/wp-content/themes/pagelines-template-theme/fonts/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#header { min-height:92px; background:url('images/header-bg.png') repeat-x; }
+.hub-left { width:46%; float:left; }
+body .network-posts img { max-width: 50px; float:left; margin-right:10px; }
+
+#sb_footcols { background: #252525; }
+
+h1, h2, h3, h4 { font-family: LeagueGothicRegular, Helvetica, Arial, sans-serif !important; text-transform: uppercase; font-weight: normal; }
+h1, .fpost .entry-title{font-size: 260%;}
+	h2{font-size: 230%;}
+	h3{font-size: 205%;}
+	h4{font-size: 180%;}
+	h5{font-size: 170%;}
+	h6{font-size: 140%;}
+input { background:#ccc;color:#999; font-family: LeagueGothicRegular; text-transform: uppercase; }
+.button, .continue_reading_link, .thenly .btn { font-family: LeagueGothicRegular !important; font-size:20px; background:#FFCE00 !important; border-radius:10px !important; box-shadow: none !important; margin-top:6px; text-transform: uppercase; display:inline-block; line-height: 1em; }
+.continue_reading_link { padding: 4px 9px; border:1px solid #CCC; }
+.thenly .pull-right { float:none; }
+.ai1ec-agenda-widget-view p { text-align: center; }
+input.button:hover, a.button:hover { background:#000 !important; color:#FFCE00;text-shadow:none !important;  }
+#brandnav { background:#000; }
+#secondnav { background:#FFCE00; }
+.main_nav li a { font-size:16px; color:#FFF; } 
+#brandnav .brandnav-nav { float:left; margin-top:21px; }
+.mainlogo-link { margin:7px 0; }
+ul.sf-menu li a { padding:10px 26px; }
+.cnt-comments a, #wp-calendar caption, .wp-caption, .commentlist .alt, #wp-calendar #today, .post-nav, .current_posts_info, .success, .content-pagination a .cp-num, .hentry table .alternate td, .playpause, .main-nav .current-page-ancestor a, .main-nav li.current-page-ancestor ul a, .main-nav li.current_page_item a, .main-nav li.current-menu-item a, ul.sf-menu li a:hover, .main-nav .current-page-ancestor .current_page_item a, .main_nav .current-menu-item a, .main_nav li.sfHover a, .sfHover li a, .main-nav li:hover, .single-hubs .main-nav li.menu-item-28 a { background:transparent !important; color:#FFCE00; }
+/* .main-nav li.current-page-ancestor ul a:hover, .main-nav li.current-menu-item > a:hover */ 
+.sf-menu li li, .sf-menu li li li, .sub-menu a { background:url(images/bg-yellow-90.png) transparent; color:#000 !important; }
+.sub-menu a:hover { color:#FFCE00 !important; background:#000 !important; }
+
+.main-nav li.current-page-ancestor > a { background:#FFCE00; color:#FFCE00; }
+li.sfHover ul li a { font-weight:normal; border:1px solid #FFCE00; text-transform: none; color:#000 !important; }
+li.sfHover ul li a:hover { background:#000 !important; color:#FFCE00 !important; border:1px solid #FFCE00; }
+
+.main-nav li#menu-item-8189, .main-nav .page-item-65 { background:url(images/nav-icon-news.png) no-repeat 8px 10px transparent !important; }
+.main-nav li#menu-item-8189:hover, .main-nav li.page-item-65:hover { background:url(images/nav-icon-news-hover.png) no-repeat 8px 10px transparent !important; }
+.main-nav .menu-item-8182, .main-nav .page-item-94 { background:url(images/nav-icon-services.png) no-repeat 8px 10px transparent !important; }
+.main-nav li.menu-item-8182:hover,.main-nav li.page-item-94:hover { background:url(images/nav-icon-services-hover.png) no-repeat 8px 10px transparent !important; }
+.main-nav .menu-item-8190, .main-nav .page-item-6809 { background:url(images/nav-icon-hubs.png) no-repeat 8px 10px transparent !important; }
+.main-nav li.menu-item-8190:hover,.main-nav li.page-item-6809:hover { background:url(images/nav-icon-hubs-hover.png) no-repeat 8px 10px transparent !important; }
+.main-nav .menu-item-8191, .main-nav .page-item-43 { background:url(images/nav-icon-calendar.png) no-repeat 8px 10px transparent !important; }
+.main-nav li.menu-item-8191:hover, .main-nav li.page-item-43:hover { background:url(images/nav-icon-calendar-hover.png) transparent no-repeat 8px 10px !important; }
+
+h3.widget-title, .su-spoiler-style-1 > .su-spoiler-title { font-family: LeagueGothicRegular; text-transform: uppercase; line-height:1em; background:none !important; border:none; font-size:24px; color:#335D99; font-weight: normal; text-align: center; margin-bottom: 0; }
+.textwidget { text-align: center !important; }
+.textwidget p { font-weight: normal; margin-top:0; line-height: 1.2em; }
+.su-spoiler-style-1 .su-spoiler-content { padding:0 !important; }
+.su-spoiler-style-1 > .su-spoiler-title { padding:0 !important; }
+
+/* padding changes */
+.one-sidebar-right #column-main .mcolumn-pad, .fullwidth #column-main .mcolumn-pad, .one-sidebar-right #column-main .mcolumn-pad, .two-sidebar-right #column-main .mcolumn-pad { padding-left:0; }
+#brandnav .content-pad, #secondnav .content-pad { padding:0; }
+#secondnav .content-pad { padding-left:10px; }
+.hentry h1, .hentry h2 { margin:.5em 0; }
+p, .p { margin:.5em 0; }
+.hentry ul, .hentry ol { margin:0 0 0 20px; }
+.hentry h3, .hentry h4, .hentry h5, .hentry h6{ margin: .3em 0 .6em; }
+.clip .post-excerpt { margin-top:0; }
+#feature_slider .fcontent .dcol-pad { padding:10px 30px 20px 20px; }
+section#features, section#postloop, section#sb_tertiary { margin:0; }
+
+/* Calendar */
+.ai1ec-agenda-widget-view h3.ai1ec-date-title, .ai1ec-agenda-widget-view .ai1ec-date.ai1ec-today { border:none !important; background:none;  border-radius: 0;}
+.ai1ec-agenda-widget-view .ai1ec-month { background-color:#335D99; }
+.ai1ec-agenda-widget-view .ai1ec-date, .ai1ec-agenda-view .ai1ec-date.ai1ec-today, .ai1ec-agenda-view .ai1ec-event.ai1ec-expanded, .ai1ec-event-overlay, .ai1ec-agenda-view .ai1ec-date { background:none !important; border:none !important; }
+.ai1ec-agenda-view .ai1ec-event.ai1ec-expanded { margin-top:0; }
+.ai1ec-agenda-widget-view .ai1ec-event { margin:0 0 2px !important; }
+.ai1ec-agenda-widget-view .ai1ec-event a { border:none; }
+.ai1ec-agenda-view h3.ai1ec-date-title { border-color:#335D99; margin:16px .75em .5em 0 !important; }
+.ai1ec-agenda-view .ai1ec-month { background:#335D99; }
+.ai1ec-agenda-view .ai1ec-event-summary .ai1ec-event-title { font-size:18px; }
+
+/* features */
+.page-id-23 #feature_slider { height:390px; }
+.page-id-23 #feature-footer { top:-70px; }
+.page-id-23 #featurenav a span.nav_thumb, .page-id-23 #featurenav a span.nav_thumb span.nav_overlay { height:128px; background:none; background-position-x: -222px; width:200px; }
+.page-id-23 #featurenav a.activeSlide span.nav_thumb { width:222px; background-position-x: 0; }
+.page-id-23 #featurenav a.activeSlide span.nav_overlay, .page-id-23 #featurenav a:active span.nav_overlay { background: none !important; }
+.page-id-23 #feature_slider .fcontainer.text-bottom .fcontent { top:10px; bottom:auto !important; left:40px;  }
+.page-id-23 #feature_slider .text-bottom .fcontent .fheading { display:none; float:none; font-size:26px; width:60%;}
+.page-id-23 #feature_slider .fcontent h2 { font-size:45px; color:#FFCE00 !important; text-shadow: 2px 2px 2px #000 !important; font-weight: normal; line-height:1em; }
+.page-id-23 #feature_slider .text-bottom .fcontent .ftext { width:100%; }
+.page-id-23 #feature_slider .feature-left { width:50%; float:left; }
+.page-id-23 #feature_slider .feature-right { width:35%; float:right; margin-right:40px; font-size:18px; margin-top:40px; }
+.page-id-23 #feature_slider .feature-left h3 { font-family:"PT Sans" !important; color:#999; text-align: left; font-weight: bold; text-transform: none; font-size:15px; }
+.page-id-23 #feature_slider .fcontent, #feature_slider .fcontent a { color:#335D99; text-shadow: none; }
+.page-id-23 #feature_slider .fcontent a:hover { color:#999; }
+.blog #feature_slider .fcontent h2 a { line-height: 1em; }
+.blog #feature_slider .fcontent { width:50%; }
+.page-id-23 #feature_slider .fcontent a { line-height: 1.2em; }.page-id-23 #feature_slider .feature-right ul { list-style-image: url('images/bullet-yellow.png'); margin-left:10px; font-size:1.2em;  }
+.page-id-23 #feature_slider li { margin-bottom:8px; }
+
+/* widgets */
+div.srp-thumbnail-box { display: block; float:left; }
+.widget_tag_cloud .widget-title { display:none; }
+div.srp-content-box { width:215px; display:block; }
+
+/* Hubs Page */
+.single-hubs h1 { font-weight: normal; /*font-family: 'PT Sans', Helvetica, sans-serif !important;*/ font-size: 3em; text-transform: none; margin:0em !important; }
+.single-hubs #page-main { background:url('images/icon-med-hub.png') no-repeat 20px -50px; }
+h2 { margin-bottom:2px !important; }
+.handle { display:inline; }
+.single-hubs .post-meta { display:none; }
+#wpcf-field-website, #wpcf-field-email { display:inline; }
+.hub-left { float: left; width: 20%; text-align: center;}
+.hub-right { float: right; width: 76%; margin-top: 30px;}
+.hub-left ul li { list-style-image: url('images/bullet-yellow.png'); margin-left:10px; font-size:1.4em; margin-bottom:4px; }
+.su-tabs-pane { min-height:300px; }
+.hubs_archive .metabar { display:none; }
+.hub-left .wp-post-image { border:2px solid #E5E5E5; }
+.buttons { margin:12px 0 0; }
+
+/* Footer */
+#footer { background:#000; position:relative; bottom:0; width:100%; }
+#footer, #footer li.link-list a, #footer .latest_posts li .list-excerpt, #footer .widget-title { color: #FFCE00; }
