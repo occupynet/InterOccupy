@@ -4,17 +4,27 @@
 @black2: lighten ( @black, 10% );
 @white: #FFF;
 @offwhite: #ededed; 
-@lightgray: #595959;
+@lightgray: #E6E6E6;
 @blue: #335D99;  
  
 
 .rounded-corners (@radius: 5px) { 
 	border-radius: @radius; -webkit-border-radius: @radius; -moz-border-radius: @radius; 
 }
+.gradient-gray {
+	#gradient > .vertical(@white, @lightgray);
+}
 .larger { 
 	font-size:1.3em; 
 }
-
+.button-gray { 
+	.rounded-corners; 
+	.gradient-gray;
+	padding:0px 6px;
+	border:1px #ccc solid;
+	font-family: @plHeaderFont;
+	color:@black;
+}
 h1, h2, h3, h4 { font-family: LeagueGothicRegular, Helvetica, Arial, sans-serif !important; color:@black; text-transform: uppercase; font-weight: normal; }
 h1, .fpost .entry-title, .thenly h1 { font-size:300%; line-height: 1em; font-weight:normal; margin-top:0; margin-bottom:10px; }
 .hentry h1, .hentry h2 { margin:0; }
@@ -35,7 +45,7 @@ ul.action { list-style:none; font-family: @plHeaderFont; text-transform: upperca
 
 body.page-id-23 #features { background:@offwhite url('@{plChildRoot}/images/feature-shadow.png') top center no-repeat; }
 #page-main { background:url('@{plChildRoot}/images/feature-shadow.png') top center no-repeat; }
-#feature_slider .action li a { color:@lightgray; }
+#feature_slider .action li a { color:@black; }
 #feature_slider .action li a:hover { color:@black; }
 .page-id-23 #column-main { margin-top:30px; }
 
@@ -53,6 +63,8 @@ h4.srp-post-title, h4.network-posts-title { text-transform: none; font-family: @
 #network-latest-posts h4.srp-post-title { font-size:14px; }
 .srp-widget-date { font-size:11px; font-style: italic; }
 .srp-widget-excerpt { font-size:13px; }
+.srp-widget-stringbreak-link { .button-gray; display:block; float:right; font-size:11px; }
+.srp-widget-stringbreak-link:hover { #gradient > .vertical(@lightgray,#CCCCCC); }
 .network-posts-source { font-style:italic; font-size:11px; color:rgba(0,0,0,0.6); }
 .textwidget { padding-top:0; }
 #sidebar1 .srp-widget-singlepost { width:213px; }

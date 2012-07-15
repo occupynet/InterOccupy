@@ -63,8 +63,8 @@ class InteroccHubHead extends PageLinesSection {
 		<?php if ( of_get_option ( 'hub-facebook' ) ) echo '<a href="' . of_get_option ( 'hub-facebook' ) . '" class="button" target="_blank">facebook page</a>'; ?>
 		<?php if ( of_get_option ( 'hub-facebook-group' ) ) echo '<a href="' . of_get_option ( 'hub-facebook-group' ) . '" class="button" target="_blank">facebook group</a>'; ?>
 		<?php if ( of_get_option ( 'hub-twitter' ) ) echo '<a href="http://www.twitter.com/' . of_get_option ( 'hub-twitter' ) . '" class="button" target="_blank">twitter</a>'; ?>
-		<?php if ( of_get_option ( 'hub-forum' ) ) echo '<a href="' . of_get_option ( 'hub-forum' ) . '" class="button">forums</a>'; ?>
-		<?php if ( of_get_option ( 'hub-classifieds' ) ) echo '<a href="' . of_get_option ( 'hub-classifieds' ) . '" class="button" target="_blank">classifieds</a>'; ?>
+		<?php if ( of_get_option ( 'hub-forum' ) ) echo '<a href="' . of_get_option ( 'hub-forum' ) . '" class="button">discuss</a>'; ?>
+		<?php if ( of_get_option ( 'hub-classifieds' ) ) echo '<a href="' . of_get_option ( 'hub-classifieds' ) . '" class="button" target="_blank">help wanted!</a>'; ?>
 		<?php if ( of_get_option ( 'contact-email' ) ) echo '<a href="mailto:' . of_get_option ( 'contact-email' ) . '" class="button">Email</a>'; ?>
 		</div>
 		</div>

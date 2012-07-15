@@ -173,7 +173,7 @@ function optionsframework_options() {
 		'type' => 'text');
 
 	$options[] = array(
-		'name' => __('Input Checkbox', 'options_check'),
+		'name' => __('Social Tab?', 'options_check'),
 		'desc' => __('Works best with Facebook Page (rather than group) and twitter handle.', 'options_check'),
 		'id' => 'social-tab',
 		'std' => '0',

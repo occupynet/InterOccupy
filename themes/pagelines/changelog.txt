@@ -4,6 +4,15 @@
 
 ********************************************************
 
+Version 2.2.3
+	- Bugs - Fixed titles in feeds.
+	- Bugs - Fixed stray divs in Jigoshop ( 1.4.6 of pagelines-jigoshop ).
+	- Bugs - Fixed rare broken dashboard bug.
+	- Bugs - Fixed background images not working.
+	- Bugs - IE8 fixes for navbar.
+	- Bugs - Fix css url when WPML switches url for custom languages.
+	- Bugs - Hero section, open link in new window.
+
 Version 2.2.2
     - CORE - Added new LESS variable @{plExtendRoot}.
 	- CORE - Added filter pl_dynamic_css_url.

@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the PageLines Framework package.
 msgid ""
 msgstr ""
-"Project-Id-Version: PageLines Framework 2.2.2\n"
+"Project-Id-Version: PageLines Framework 2.2.3\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/pagelines\n"
-"POT-Creation-Date: 2012-07-07 08:46:47+00:00\n"
+"POT-Creation-Date: 2012-07-13 18:23:12+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -92,15 +92,15 @@ msgstr ""
 msgid "Visit %s&#8217;s website"
 msgstr ""
 
-#: includes/class.render.css.php:105 includes/class.render.css.php:504
+#: includes/class.render.css.php:107 includes/class.render.css.php:543
 msgid "CSS was compiled at %s and took %s seconds using %sMB of unicorn dust."
 msgstr ""
 
-#: includes/class.render.css.php:155
+#: includes/class.render.css.php:182
 msgid "LESS Compile error!"
 msgstr ""
 
-#: includes/class.render.css.php:162
+#: includes/class.render.css.php:189
 msgid "Error in %s Less code: %s"
 msgstr ""
 
@@ -1516,61 +1516,61 @@ msgstr ""
 msgid "|"
 msgstr ""
 
-#: includes/library.templates.php:493
+#: includes/library.templates.php:495
 msgid "Search Results: %s"
 msgstr ""
 
-#: includes/library.templates.php:497
+#: includes/library.templates.php:499
 msgid "Page: %s"
 msgstr ""
 
-#: includes/library.templates.php:608
+#: includes/library.templates.php:610
 msgid "&larr; Previous Entries"
 msgstr ""
 
-#: includes/library.templates.php:609
+#: includes/library.templates.php:611
 msgid "Next Entries &rarr;"
 msgstr ""
 
-#: includes/library.templates.php:640
+#: includes/library.templates.php:642
 msgid "<ul class='inline-list'>Please select a nav menu for this area in the <a href='%s'>WordPress menu admin</a>.</ul>"
 msgstr ""
 
-#: includes/library.templates.php:709 sections/sb_footcols/section.php:58
+#: includes/library.templates.php:711 sections/sb_footcols/section.php:58
 #: sections/sb_footcols/section.php:60
 msgid "Home"
 msgstr ""
 
-#: includes/library.templates.php:745
+#: includes/library.templates.php:747
 msgid "PageLines"
 msgstr ""
 
-#: includes/library.templates.php:746 admin/actions.options.php:29
+#: includes/library.templates.php:748 admin/actions.options.php:29
 #: admin/t.dashboard.php:95
 msgid "Dashboard"
 msgstr ""
 
-#: includes/library.templates.php:747 admin/actions.options.php:31
+#: includes/library.templates.php:749 admin/actions.options.php:31
 msgid "Site Options"
 msgstr ""
 
-#: includes/library.templates.php:748 admin/actions.options.php:33
+#: includes/library.templates.php:750 admin/actions.options.php:33
 msgid "Page Options"
 msgstr ""
 
-#: includes/library.templates.php:749
+#: includes/library.templates.php:751
 msgid "Drag &amp; Drop"
 msgstr ""
 
-#: includes/library.templates.php:750 admin/actions.options.php:37
+#: includes/library.templates.php:752 admin/actions.options.php:37
 msgid "Store"
 msgstr ""
 
-#: includes/library.templates.php:755
+#: includes/library.templates.php:757
 msgid "Template: "
 msgstr ""
 
-#: includes/library.templates.php:762
+#: includes/library.templates.php:764
 msgid "Edit Meta"
 msgstr ""
 
