@@ -1,0 +1,164 @@
+/* @group Icon */
+
+#icon-ab {
+	top: -8px;
+	left: 0;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	background: url('../img/icon@2x.png');
+	background-size: 100%;
+}
+
+/* @end group */
+
+
+/* @group GUI */
+
+#ab_main {
+	position: relative;
+}
+#ab_main .table {
+	width: 460px;
+	height: 1%;
+	margin: 20px 0 0 -10px;
+}
+
+#ab_main .hr {
+	width: 283px;
+	margin: 10px 0 10px 10px;
+	border-top: 1px dotted #DFDFDF;
+}
+
+#ab_main .related tr {
+	display: none;
+}
+#ab_main .related tr:first-child {
+	display: table-row;
+}
+
+#ab_main .form-table {
+	margin: 0;
+}
+#ab_main .form-table th {
+	width: 250px;
+	padding-top: 8px;
+	vertical-align: middle;
+}
+#ab_main .form-table label {
+	text-shadow: none;
+}
+#ab_main .form-table small {
+	color: #aaa;
+}
+#ab_main .form-table .maxi-text,
+#ab_main .form-table .maxi-select {
+	width: 160px;
+}
+#ab_main .form-table .mini-select option {
+	padding-right: 6px;
+}
+
+#ab_main select[multiple] {
+	height: 60px;
+}
+
+#ab_main .submit {
+	width: 431px;
+	height: 1%;
+	margin: 20px 0 0;
+	padding: 15px 0 0;
+	overflow: hidden;
+	border-top: 1px solid #bebebe;
+}
+#ab_main .submit .help {
+	float: left;
+	color: #bebebe;
+	font-size: 11px;
+	line-height: 23px;
+}
+#ab_main .submit .button-primary {
+	float: right;
+}
+
+/* @end group */
+
+
+/* @group Tabs */
+
+#ab_main .nav-tab-wrapper {
+	height: 35px;
+	margin: 13px 0 0;
+	padding: 0 0 0 44px;
+	border-bottom: 1px solid #ccc;
+}
+#ab_main .nav-tab-wrapper li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#ab_main .nav-tab-wrapper h2 {
+	padding: 0;
+}
+#ab_main .nav-tab-wrapper a {
+	color: #AAA;
+	height: 24px;
+}
+#ab_main .ui-tabs-selected a {
+	color: #464646;
+	border-color: #ccc;
+	border-bottom: 1px solid #fff;
+}
+.ui-tabs .ui-tabs-hide {
+	display: none;
+}
+
+/* @end group */
+
+
+/* @group Alert */
+
+#message {
+	display: none;
+}
+#setting-error-settings_updated {
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 1px 10px 0;
+	position: absolute;
+	
+	animation: blink 1s cubic-bezier(1, 0, 0, 1) 2;
+	-moz-animation: blink 1s cubic-bezier(1, 0, 0, 1) 2;
+	-webkit-animation: blink 1s cubic-bezier(1, 0, 0, 1) 2;
+}
+#setting-error-settings_updated p {
+	padding: 0;
+}
+
+@keyframes blink {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+@-moz-keyframes blink {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+@-webkit-keyframes blink {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+/* @end group */

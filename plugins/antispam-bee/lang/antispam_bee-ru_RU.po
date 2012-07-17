@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Antispam Bee\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sergej Müller\n"
+"Language-Team: Sergej Müller\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "No data available."
+msgstr "Нет данных."
+
+msgid "New spam comment on your post"
+msgstr "Новый спам комментарий"
+
+msgid "Advanced"
+msgstr "Расширенные"
+
+msgid "Filter"
+msgstr "Фильтры"
+
+msgid "General"
+msgstr "Общие"
+
+msgid "Comment"
+msgstr "Kомментарий"
+
+msgid "Type"
+msgstr "Tип"
+
+msgid "Spam Reason"
+msgstr "Причина спама"
+
+msgid "Empty Data"
+msgstr "Нет данных"
+
+msgid "CSS Hack"
+msgstr "CSS Hack"
+
+msgid "Server IP"
+msgstr "Server IP"
+
+msgid "Spam IP"
+msgstr "Spam IP"
+
+msgid "Comment Language"
+msgstr "Язык комментария"
+
+msgid "Country Check"
+msgstr "Проверка страны"
+
+msgid "Honey Pot"
+msgstr "Honey Pot"
+
+msgid "as"
+msgstr "как"
+
+msgid "iso codes"
+msgstr "ISO Codes"
+
+msgid "Approve it"
+msgstr "Разрешить его"
+
+msgid "Delete it"
+msgstr "Удалить его"
+
+msgid "Trash it"
+msgstr "В помойку его"
+
+msgid "Spam list"
+msgstr "Список спама"
+
+msgid "Notify message by Antispam Bee"
+msgstr "Сообщение от Antispam Bee"
+
+msgid "Content removed by Antispam Bee"
+msgstr "Содержимое удалено"
+
+msgid "Last check"
+msgstr "Последний раз"
+
+msgid "Blocked"
+msgstr "Заблокировано"
+
+msgid "Today"
+msgstr "Сегодня"
+
+msgid "Easy and extremely productive spam-fighting plugin with many sophisticated solutions. Includes protection again trackback spam."
+msgstr "Простой и очень продуктивный антиспам плагин. Включает в себя защиту от trackback спама."
+
+msgid "http://antispambee.com"
+msgstr "http://antispambee.de"
+
+# Spam detection
+msgid "Mark as Spam, do not delete"
+msgstr "Отметить как спам, не удалять"
+
+msgid "Limit on"
+msgstr "Ограничить на"
+
+msgid "Spam will be automatically deleted after %s days"
+msgstr "Спам машинально удалять через %s дней"
+
+msgid "Notification by email"
+msgstr "Отправить емайл при новом спаме"
+
+msgid "Delete comments by spam reasons"
+msgstr "Удаление спама в комментариях по причинам"
+
+msgid "Multiple choice or deselection by pressing Ctrl/CMD"
+msgstr "Выбор или отменa нажав клавиши Strg/CMD"
+
+msgid "Hide the &quot;MARKED AS SPAM&quot; note"
+msgstr "Скрыть замечание &quot;MARKED AS SPAM&quot;"
+
+msgid "Comment marked as spam"
+msgstr "Kомментарий помечен как спам"
+
+# Block countries
+msgid "Block comments and pings from specific countries"
+msgstr "Банить или разрешать страны"
+
+msgid "Blacklist"
+msgstr "Черный список"
+
+msgid "Whitelist"
+msgstr "Белый список"
+
+# Project Honey Pot
+msgid "Search comment spammers in the Project Honey Pot"
+msgstr "Поиск спамеров в Project Honey Pot"
+
+msgid "English"
+msgstr "Английский"
+
+msgid "German"
+msgstr "Немецкий"
+
+msgid "French"
+msgstr "Французский"
+
+msgid "Italian"
+msgstr "Итальянский"
+
+msgid "Spanish"
+msgstr "Испанский"
+
+# Translate API
+msgid "Allow comments only in certain language"
+msgstr "Разрешить комментарии только в одном языке"
+
+msgid "Language"
+msgstr "Язык"
+
+# Extended
+msgid "Stricter inspection for comments and pings"
+msgstr "Строгий контроль на входящие комментарии"
+
+msgid "Consider comments which are already marked as spam"
+msgstr "Учитывать сpам из базы данных"
+
+msgid "Do not check if the comment author has already approved"
+msgstr "Не проверять, если автор уже комментировал и был утвержден"
+
+# Misc
+msgid "Spam counter on the dashboard"
+msgstr "Заблокированный спам показать на панели инструментов"
+
+msgid "Statistics on the dashboard"
+msgstr "Статистикa на панели инструментов"
+
+msgid "Do not check trackbacks / pingbacks"
+msgstr "Не проверять trackbacks и pingbacks"
+
+msgid "Comment form used outside of posts"
+msgstr "Комментарии также используются вне постов и страниц"
+
+msgid "Antispam Bee requires WordPress 3.3 and PHP 5.1.2"
+msgstr "Antispam Bee требуется WordPress 3.3 и PHP 5.1.2"
+
