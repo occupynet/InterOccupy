@@ -11,7 +11,7 @@ class PageLinesRenderCSS {
 	function __construct() {
 		
 		$this->url_string = '%s/?pageless=%s';
-		$this->ctimout = 86400;
+		$this->ctimeout = 86400;
 		$this->btimeout = 604800;
 		$this->types = array( 'sections', 'core', 'custom' );
 		$this->lessfiles = $this->get_core_lessfiles();
@@ -148,11 +148,12 @@ class PageLinesRenderCSS {
 	function do_background_image() {
 			
 		global $pagelines_ID;
+		if ( is_archive() || is_home() )
+			$pagelines_ID = null;
 		$oset = array( 'post_id' => $pagelines_ID );
 		$oid = 'page_background_image';
-		$sel = '#page';
-		
-		if( !ploption('supersize_bg', $oset) && ploption( $oid . '_url', $oset)){
+		$sel = '.full_width #page .page-canvas, body.fixed_width';		
+		if( !ploption('supersize_bg', $oset) && ploption( $oid . '_url', $oset )){
 			
 			$bg_repeat = (ploption($oid.'_repeat', $oset)) ? ploption($oid.'_repeat', $oset) : 'no-repeat';
 			$bg_attach = (ploption($oid.'_attach', $oset)) ? ploption($oid.'_attach', $oset): 'scroll';
@@ -631,8 +632,19 @@ class PageLinesRenderCSS {
 
 		foreach( $disabled as $type => $class ) 			
 			unset( $available[$type][key( $class )] );
+		/*
+		* We need to reorder the array so sections css is loaded in the right order.
+		* Core, then pagelines-sections, followed by anything else. 
+		*/
+		$sections = array();
+		$sections['parent'] = $available['parent'];
+		unset( $available['parent'] );
+		$sections['child'] = $available['child'];
+		unset( $available['child'] );
+		if ( is_array( $available ) )
+			$sections = array_merge( $sections, $available );
 
-		foreach( $available as $t ) {		
+		foreach( $sections as $t ) {		
 			foreach( $t as $key => $data ) {
 				if ( $data['less'] ) {
 					if ( is_file( $data['base_dir'] . '/style.less' ) )

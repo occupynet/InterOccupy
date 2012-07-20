@@ -1,0 +1,83 @@
+# Translation of the WordPress plugin Custom Headers and Footers 1.1 by Daniel Frużyński.
+# Copyright (C) 2010 Daniel Frużyński
+# This file is distributed under the same license as the Custom Headers and Footers package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Headers and Footers 1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/custom-headers-and-footers\n"
+"POT-Creation-Date: 2010-01-01 19:57+0000\n"
+"PO-Revision-Date: 2010-06-28 19:42+0100\n"
+"Last-Translator: traducteurs <info@traducteurs.com>\n"
+"Language-Team: traducteurs.com <info@traducteurs.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+
+#: custom-headers-and-footers.php:95
+msgid "Configuration has been saved."
+msgstr "Configuration enregistrée."
+
+#: custom-headers-and-footers.php:100
+msgid "Custom Headers and Footers - Options"
+msgstr "En-tête et pied de page personnalisés - Options"
+
+#: custom-headers-and-footers.php:108
+msgid "Meta Headers:"
+msgstr "Balises metas :"
+
+#: custom-headers-and-footers.php:111
+msgid "This will be printed in <code>&lt;head&gt;</code> section, so you can use it to add additional meta tags."
+msgstr "Ce contenu sera inséré dans la section <code>&lt;head&gt;</code> de votre code HTML, aussi vous pouvez ajouter des balises metas additionnels."
+
+#: custom-headers-and-footers.php:117
+msgid "Header:"
+msgstr "En-tête :"
+
+#: custom-headers-and-footers.php:120
+msgid "This will be printed just before posts/pages and their lists."
+msgstr "Ce contenu sera affiché avant les billets et les pages ainsi que dans les listes."
+
+#: custom-headers-and-footers.php:126
+msgid "Footer:"
+msgstr "Pied de page :"
+
+#: custom-headers-and-footers.php:129
+msgid "This will be printed just after posts/pages and their lists."
+msgstr "Ce contenu sera affiché après les billets et les pages ainsi que dans les listes."
+
+#: custom-headers-and-footers.php:135
+msgid "Blog Footer:"
+msgstr "Pied de page du blog :"
+
+#: custom-headers-and-footers.php:138
+msgid "This will be printed in blog footer."
+msgstr "Ce contenu sera ajouté au pied de page du blog."
+
+#: custom-headers-and-footers.php:146
+msgid "Save settings"
+msgstr "Enregistrer les réglages"
+
+#. Plugin Name of an extension
+msgid "Custom Headers and Footers"
+msgstr "En-tête et pied de page personnalisés"
+
+#. Plugin URI of an extension
+msgid "http://www.poradnik-webmastera.com/projekty/custom_headers_and_footers/"
+msgstr "http://www.poradnik-webmastera.com/projekty/custom_headers_and_footers/"
+
+#. Description of an extension
+msgid "This plugin adds custom header and footer for main page content."
+msgstr "Cette extension ajoute un en-tête et un pied de page personnalisés aux contenus des pages principales."
+
+#. Author of an extension
+msgid "Daniel Frużyński"
+msgstr "Daniel Frużyński"
+
+#. Author URI of an extension
+msgid "http://www.poradnik-webmastera.com/"
+msgstr "http://www.poradnik-webmastera.com/"
+

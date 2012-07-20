@@ -36,7 +36,8 @@ class InteroccHubDash extends PageLinesSection {
 		if ( of_get_option ( 'call-info') ) $tabs .= '<h4>Call Time: ' . of_get_option ('call-info') . '</h4>'; 
 		if ( of_get_option ( 'hub-handle') ) $tabs .= '<h5>@' . of_get_option ('hub-handle') . '</h5>'; 
 		$tabs .= of_get_option( 'full-desc' );
-		$tabs .= '<p><a href="' . of_get_option( 'hub-website' ) . '">' . of_get_option( 'hub-website') . '</a> | <a href="mailto:' . of_get_option( 'contact-email' ) . '">' . of_get_option( 'contact-email') . '</a></p>';
+		$tabs .= '<p><a href="' . of_get_option( 'hub-website' ) . '">' . of_get_option( 'hub-website') . '</a> | <a href="mailto:' . of_get_option( 'contact-email' ) . '">' . of_get_option( 'contact-email') . '</a>';
+		if ( of_get_option ( 'contact-phone' ) ) $tabs .= ' | ' . of_get_option('contact-phone') . '</p>';
 		$tabs .= '[/pl_tabcontent]';
 		$tabs .= '[pl_tabcontent number="2"]';
 		$tabs .= render_view(array("id"=>"14"));

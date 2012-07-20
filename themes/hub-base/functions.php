@@ -48,3 +48,12 @@ function of_sanitize_text_field($input) {
 	$output = wp_kses( $input, $allowedtags);
 	return $output;
 }
+
+add_shortcode('wpv-post-comments', 'my_post_comments');
+
+function my_post_comments() {
+	ob_start();
+	comments_template();
+	$data = ob_get_clean();
+	return $data;
+}

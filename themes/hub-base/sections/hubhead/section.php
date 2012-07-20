@@ -66,6 +66,7 @@ class InteroccHubHead extends PageLinesSection {
 		<?php if ( of_get_option ( 'hub-forum' ) ) echo '<a href="' . of_get_option ( 'hub-forum' ) . '" class="button">discuss</a>'; ?>
 		<?php if ( of_get_option ( 'hub-classifieds' ) ) echo '<a href="' . of_get_option ( 'hub-classifieds' ) . '" class="button" target="_blank">help wanted!</a>'; ?>
 		<?php if ( of_get_option ( 'contact-email' ) ) echo '<a href="mailto:' . of_get_option ( 'contact-email' ) . '" class="button">Email</a>'; ?>
+		<?php if ( of_get_option ( 'hub-list' ) ) echo '<a href="' . of_get_option ( 'hub-list' ) . '" class="button">Mailing List</a>'; ?>
 		</div>
 		</div>
 	</div>

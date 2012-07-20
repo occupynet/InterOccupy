@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CHF\n"
+"Report-Msgid-Bugs-To: Knut Sparhell <knut@sparhell.no>\n"
+"POT-Creation-Date: 2009-03-01 00:00+0100\n"
+"PO-Revision-Date: 2009-08-28 22:14+0200\n"
+"Last-Translator: Fat Cow <zhr@tut.by>\n"
+"Language-Team: Fat Cow <zhr@tut.by>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: custom-headers-and-footers.php:86
+msgid "Configuration has been saved."
+msgstr "Конфигурация была сохранена."
+
+#: custom-headers-and-footers.php:92
+msgid "Custom Headers and Footers - Options"
+msgstr "Настройки Custom Headers and Footers"
+
+#: custom-headers-and-footers.php:100
+msgid "Header:"
+msgstr "Заголовок:"
+
+#: custom-headers-and-footers.php:109
+msgid "Footer:"
+msgstr "Подвал:"
+
+#: custom-headers-and-footers.php:120
+msgid "Save settings"
+msgstr "Сохранить настройки"
+
+#. Plugin Name of an extension
+msgid "Custom Headers and Footers"
+msgstr "Выбранные заголовки и подвалы"
+
+#. Plugin URI of an extension
+msgid "http://www.poradnik-webmastera.com/projekty/custom_headers_and_footers/"
+msgstr "http://www.poradnik-webmastera.com/projekty/custom_headers_and_footers/"
+
+#. Description of an extension
+msgid "This plugin adds custom header and footer for main page content."
+msgstr "Этот плагин добавляет настраиваемые подвал и шапку в  содержание страницу."
+
+#. Author of an extension
+msgid "Daniel Fruyski"
+msgstr "Daniel Fruyski"
+
+#. Author URI of an extension
+msgid "http://www.poradnik-webmastera.com/"
+msgstr "http://www.poradnik-webmastera.com/"
+

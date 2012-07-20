@@ -12,3 +12,4 @@ uploads
 themes/index.php
 themes/twentyeleven
 themes/network
+plugins/*/cache/*

@@ -73,6 +73,13 @@ function optionsframework_options() {
 		'type' => 'text');
 
 	$options[] = array(
+		'name' => __('Hub Mailing List Link', 'options_check'),
+		'desc' => __('Enter URL for mailing list signup', 'options_check'),
+		'id' => 'hub-list',
+		'std' => '',
+		'type' => 'text');
+
+	$options[] = array(
 		'name' => __('Contact Person', 'options_check'),
 		'desc' => __('Point person for Hub', 'options_check'),
 		'id' => 'contact-person',
@@ -85,6 +92,14 @@ function optionsframework_options() {
 		'id' => 'contact-email',
 		'std' => '',
 		'type' => 'text');
+		
+	$options[] = array(
+		'name' => __('Public Phone #', 'options_check'),
+		'desc' => __('Phone number that is publically shared', 'options_check'),
+		'id' => 'contact-phone',
+		'std' => '',
+		'type' => 'text');
+		
 	$options[] = array(
 		'name' => __('Short Description', 'options_check'),
 		'desc' => __('In 30 words or less...', 'options_check'),

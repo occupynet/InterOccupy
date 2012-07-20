@@ -417,7 +417,7 @@ class PageLinesFeatures2 extends PageLinesSection {
 						$feature_wrap_markup = ( $feature_style == 'text-none' && isset( $action ) ) ? 'a' : 'div';
 						$feature_wrap_link = ( $feature_style == 'text-none' && isset( $action ) ) ? sprintf( 'href="%s"', $action ) : '';
 						
-						$more_link = ( $feature_style != 'text-none' && $action ) ? sprintf( ' <a class="plmore button" href="%s" >%s</a>', $action, $flink_text ) : '';
+						$more_link = ( $feature_style != 'text-none' && $action ) ? sprintf( ' <a class="plmore" href="%s" >%s</a>', $action, $flink_text ) : '';
 						
 						$background_css = ( $feature_background_image ) ? sprintf('style="background-image: url(\'%s\');"', $feature_background_image ) : '';
 

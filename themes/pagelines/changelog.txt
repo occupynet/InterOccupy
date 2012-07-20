@@ -3,6 +3,10 @@
   PageLines Framework Release Notes:  
 
 ********************************************************
+Version 2.2.4
+	- Bugs - Fixed background selectors.
+	- Bugs - Typo in CSS cache timeout settings.
+	- Bugs - Properly stack LESS sections CSS.
 
 Version 2.2.3
 	- Bugs - Fixed titles in feeds.

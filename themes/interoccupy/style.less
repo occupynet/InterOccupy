@@ -25,6 +25,15 @@
 	font-family: @plHeaderFont;
 	color:@black;
 }
+.button-yellow { 
+	.rounded-corners; 
+	background-color:@yellow; 
+	padding:0px 6px;
+	border:1px #ccc solid;
+	font-family: @plHeaderFont;
+	color:@black;
+}
+a { color:@blue; }
 h1, h2, h3, h4 { font-family: LeagueGothicRegular, Helvetica, Arial, sans-serif !important; color:@black; text-transform: uppercase; font-weight: normal; }
 h1, .fpost .entry-title, .thenly h1 { font-size:300%; line-height: 1em; font-weight:normal; margin-top:0; margin-bottom:10px; }
 .hentry h1, .hentry h2 { margin:0; }
@@ -51,19 +60,26 @@ body.page-id-23 #features { background:@offwhite url('@{plChildRoot}/images/feat
 
 input[type="submit"], .submit, input[type="button"], .button, input[type="reset"], .reset { background:@yellow; font-family: @plHeaderFont; text-transform: uppercase; color:@black; }
 
-section#sb_universal { margin-top:-20px; }
+section#sb_universal { margin-top:0px; }
+section#sb_secondary { margin-top:4px; margin-bottom:-20px;}
+#sb_secondary .accordion-inner { max-height:300px; overflow: auto; }
+#sb_secondary .accordion-heading .accordion-toggle { font-family: "League Gothic"; font-size:30px; text-transform: uppercase; padding:15px; }
+#sb_secondary #accordion .widget-title { display:none; }
 section#postloop { margin-bottom:0; }
-#sb_universal h3.widget-title { font-size:34px; color:@black; border-bottom:none; margin-bottom:0;}
-h3.widget-title { font-size:28px; border-bottom:none; margin-bottom:0; color:@blue;}
-#column-main #wdg_specialrecentposts-2 { width:55%; float:left; }
-#column-main #wdg_specialrecentposts-3, #text-5 { width:42%; float:right; }
+.section-sb_secondary h3.widget-title { font-size:34px; color:@black; margin-bottom:10px; padding:0; border-bottom:1px solid @lightgray; }
+#text-4 .widget-pad { height:820px; overflow: auto; border-bottom:1px solid @lightgray;  }
+h3.widget-title { font-size:34px; border-bottom:none; margin-bottom:0; color:@black; margin-bottom:10px; padding:0; border-bottom:1px solid @lightgray; }
+#column-main #wdg_specialrecentposts-2 { width:60%; float:left; border:1px solid @lightgray; }
+#column-main #left-column { height:700px; overflow: auto; display:block; }
+#column-main #wdg_specialrecentposts-3, #text-5 { width:37%; float:right; border:1px solid @lightgray; }
+#column-main #text-5 .textwidget { height:750px; overflow: auto; }
 .widget .srp-widget-singlepost { padding-top:0; }
 .widget ul { margin-left:0; }
 h4.srp-post-title, h4.network-posts-title { text-transform: none; font-family: @plHeaderFont !important; font-size:16px;  }
 #network-latest-posts h4.srp-post-title { font-size:14px; }
 .srp-widget-date { font-size:11px; font-style: italic; }
 .srp-widget-excerpt { font-size:13px; }
-.srp-widget-stringbreak-link { .button-gray; display:block; float:right; font-size:11px; }
+.srp-widget-stringbreak-link, .continue_reading_link { .button-gray; display:block; float:right; font-size:11px; }
 .srp-widget-stringbreak-link:hover { #gradient > .vertical(@lightgray,#CCCCCC); }
 .network-posts-source { font-style:italic; font-size:11px; color:rgba(0,0,0,0.6); }
 .textwidget { padding-top:0; }

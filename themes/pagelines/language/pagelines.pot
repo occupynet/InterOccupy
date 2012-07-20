@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the PageLines Framework package.
 msgid ""
 msgstr ""
-"Project-Id-Version: PageLines Framework 2.2.3\n"
+"Project-Id-Version: PageLines Framework 2.2.4\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/pagelines\n"
-"POT-Creation-Date: 2012-07-13 18:23:12+00:00\n"
+"POT-Creation-Date: 2012-07-16 22:06:08+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -92,15 +92,15 @@ msgstr ""
 msgid "Visit %s&#8217;s website"
 msgstr ""
 
-#: includes/class.render.css.php:107 includes/class.render.css.php:543
+#: includes/class.render.css.php:107 includes/class.render.css.php:544
 msgid "CSS was compiled at %s and took %s seconds using %sMB of unicorn dust."
 msgstr ""
 
-#: includes/class.render.css.php:182
+#: includes/class.render.css.php:183
 msgid "LESS Compile error!"
 msgstr ""
 
-#: includes/class.render.css.php:189
+#: includes/class.render.css.php:190
 msgid "Error in %s Less code: %s"
 msgstr ""
 
